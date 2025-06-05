@@ -1,0 +1,63 @@
+// import React from "react";
+import { Layout } from "../../layouts/Layout";
+import { HeroThree } from "../../components/hero_sections/HeroThree";
+import { ServiceAreaThree } from "../../components/service/ServiceAreaThree";
+import { AboutThree } from "../../components/about/AboutThree";
+import { VideoAreaTwo } from "../../components/video_areas/VideoAreaTwo";
+import { ExperienceOne } from "../../components/experience/ExperienceOne";
+import { FaqOne } from "../../components/faq/FaqOne";
+// import { TestimonialThree } from "../../components/testimonials/TestimonialThree";
+// import { PricingOne } from "../../components/pricing/PricingOne";
+// import { BusinessOne } from "../../components/business/BusinessOne";
+import { ContactTwo } from "../../components/contact/ContactTwo";
+import { MapOne } from "../../components/map/MapOne";
+import { FaqTwo } from "../../components/faq/FaqTwo";
+import { ChooseOne } from "../../components/choose/ChooseOne";
+// import { SubscribeOne } from "../../components/subscribe/SubscribeOne";
+import { TestimonialFour } from "../../components/testimonials/TestimonialFour";
+
+export const HomeThree = () => {
+  return (
+    <Layout header={3} footer={3}>
+      {/* hero */}
+      <HeroThree />
+
+      {/* service area */}
+      <ServiceAreaThree />
+
+      {/* about */}
+      <AboutThree />
+
+      {/* video */}
+      <VideoAreaTwo />
+
+      {/* experience */}
+      <ExperienceOne />
+
+      {/* faq */}
+      <FaqOne />
+
+      {/* testimonial */}
+      {/* <TestimonialThree /> */}
+
+      {/* pricing */}
+      {/* <PricingOne /> */}
+
+
+      {/* choose */}
+      <ChooseOne />
+
+      {/* faq */}
+      <FaqTwo />
+      {/* business */}
+      {/* <BusinessOne /> */}
+      
+            <TestimonialFour />
+            <MapOne />
+      
+
+      {/* contact */}
+      <ContactTwo />
+    </Layout>
+  );
+};
