@@ -133,7 +133,7 @@ export const FooterOne = () => {
                       <div className="td-footer-bottom-location pt-5 mb-35 ml-100">
                         <h5 className="td-footer-bottom-title mb-15">Canada</h5>
                         <a
-                          href="https://www.google.com/maps/@41.6758525,-86.2531698,18.17z"
+                          href="https://www.google.com/maps/@13.033732,80.262212,18.17z"
                           target="_blank"
                         >
                           71 South Los Carneros Road,
@@ -155,7 +155,7 @@ export const FooterOne = () => {
                           Germany
                         </h5>
                         <a
-                          href="https://www.google.com/maps/@41.6758525,-86.2531698,18.17z"
+                          href="https://www.google.com/maps/@13.033732,80.262212,18.17z"
                           target="_blank"
                         >
                           71 South Los Carneros Road,

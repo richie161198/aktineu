@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import LOGO_WHITE from "../../assets/img/logo/logo-white.png";
+import LOGO_WHITE from "../../assets/img/logo/logo-white3.png";
+import LOGO_WHITE_Font from "../../assets/img/logo/logo-white.png";
 
 export const FooterThree = () => {
   return (
@@ -11,17 +12,16 @@ export const FooterThree = () => {
             <div className="row">
               <div className="col-lg-6 mb-50">
                 <div className="td-footer-3-logo">
-                  <Link to="/">
-                    <img src={LOGO_WHITE} alt="logo" />
-                  </Link>
+                  <img src={LOGO_WHITE} alt="logo" />
+                  {/* <img src={LOGO_WHITE_Font} alt="" /> */}
                 </div>
               </div>
               <div className="col-lg-6 mb-50">
                 <div className="td-footer-3-top-content">
                   <p>
-                    Looking for collaboration? Send an email to
-                    <a href="mailto:Aktineu@mail.com">Aktineu@mail.com</a> for
-                    valuable enquires and collaborations.
+                    Looking for collaboration? Send an email to{" "}
+                    <a href="mailto:connect@aktineu.com">connect@aktineu.com</a>{" "}
+                    for valuable enquires and collaborations.
                   </p>
                 </div>
               </div>
@@ -47,8 +47,8 @@ export const FooterThree = () => {
                         <li>
                           <a href="#">Company</a>
                           <a href="#">Careers</a>
-                          <a href="#">Press Media</a>
-                          <a href="#">Our Blog</a>
+                          {/* <a href="#">Press Media</a> */}
+                          {/* <a href="#">Our Blog</a> */}
                           <a href="#">Privacy Policy</a>
                         </li>
                       </ul>
@@ -60,10 +60,10 @@ export const FooterThree = () => {
                         Contact Us
                       </h2>
                       <div className="td-footer-3-link">
-                        <a href="mailto:info@Aktineu-design.com">
-                          info@Aktineu-design.com
+                        <a href="mailto:connect@aktineu.com">
+                          Mail : connect@aktineu.com
                         </a>
-                        <a href="tel:+(123)45678900">+(123) 456 789 00</a>
+                        <a href="tel:+(123)45678900">Call : +(91) 9994031721</a>
                       </div>
                     </div>
                     <div className="td-footer-3-widget">
@@ -72,12 +72,12 @@ export const FooterThree = () => {
                       </h2>
                       <div className="td-footer-3-link">
                         <a
-                          href="https://www.google.com/maps/@41.6758525,-86.2531698,18.17z"
+                          href="https://www.google.com/maps/@13.033732,80.262212,18.17z"
                           target="_blank"
                         >
-                          2938 Bingamon Branch Road
+                          No. 4, Sri Ganesh Apartments,
                           <br />
-                          Highland Park, IL 60035
+                          Abhiramapuram 3rd Street, Chennai – 600018
                         </a>
                       </div>
                     </div>
@@ -96,7 +96,7 @@ export const FooterThree = () => {
                     <div className="col-lg-6 mb-15">
                       <div className="td-footer-3-bottom-copyright">
                         <p>
-                          © 2025 <a href="#">Example</a>, All rights reserved.
+                          © 2025 <a href="#">Aktineu</a>, All rights reserved.
                         </p>
                       </div>
                     </div>
@@ -104,7 +104,7 @@ export const FooterThree = () => {
                       <div className="td-footer-3-bottom-social text-right">
                         <ul>
                           <li>
-                            <a href="#">
+                            <a href="https://www.facebook.com/aktineullp">
                               <i className="fa-brands fa-facebook-f"></i>
                             </a>
                           </li>
@@ -119,13 +119,27 @@ export const FooterThree = () => {
                             </a>
                           </li>
                           <li>
-                            <a href="#">
+                            <a
+                              href="https://www.instagram.com/aktineu.llp/"
+                              target="_blank"
+                              rel="noopener noreferrer"
+                            >
+                              <i className="fa-brands fa-instagram"></i>
+                            </a>
+                          </li>
+
+                          <li>
+                            <a href="https://www.youtube.com/@aktineullp">
                               <i className="fa-brands fa-youtube"></i>
                             </a>
                           </li>
                           <li>
-                            <a href="#">
-                              <i className="fa-brands fa-behance"></i>
+                            <a
+                              href="https://www.linkedin.com/company/aktineullp"
+                              target="_blank"
+                              rel="noopener noreferrer"
+                            >
+                              <i className="fa-brands fa-linkedin-in"></i>
                             </a>
                           </li>
                         </ul>

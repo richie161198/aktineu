@@ -1,7 +1,7 @@
 // import React from "react";
 import { Layout } from "../../layouts/Layout";
 import { ContactMap } from "../../components/contact/ContactMap";
-import { ContactFour } from "../../components/contact/ContactFour";
+import { ContactFour, PrivacyPolicy } from "../../components/contact/ContactFour";
 
 export const Contact = () => {
   return (
@@ -10,7 +10,8 @@ export const Contact = () => {
       <ContactMap />
 
       {/* contact form */}
-      <ContactFour />
+      {/* <ContactFour /> */}
+      {/* <PrivacyPolicy/> */}
     </Layout>
   );
 };

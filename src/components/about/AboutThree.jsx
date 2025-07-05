@@ -1,4 +1,4 @@
-import React from "react";
+
 // import shape2 from "../../assets/img/about/about3/shape2.png";
 import shape from "../../assets/img/about/about3/shape.png";
 import thumb2 from "../../assets/img/about/about3/thumb2.jpg";
@@ -6,7 +6,7 @@ import thumb from "../../assets/img/about/about3/thumb.jpg";
 
 export const AboutThree = () => {
   return (
-    <div className="td-about-area td-about-3-space p-relative pb-60">
+    <div className="td-about-area td-about-3-space p-relative pb-70">
       {/* <img
         className="td-about-3-shape-2 d-none d-sm-block tpupdown"
         src={shape2}
@@ -43,15 +43,21 @@ export const AboutThree = () => {
             data-wow-duration="1s"
           >
             <div className="td-about-3-content-wrap ml-55">
-              <div className="td-about-3-title-wrap mb-70">
+              <div className="td-about-3-title-wrap mb-30">
                 <span className="td-section-title-pre mb-5">What they say</span>
                 <h2 className="td-section-title">How does it works?</h2>
               </div>
               <div className="td-about-3-list">
-                <div className="td-about-3-list-item td-about-3-list-border pb-30 mb-35">
+                <div className="td-about-3-list-item td-about-3-list-border pb-30 mb-20">
                   <div className="td-about-3-content">
-                    <span className="td-about-3-order mb-5">Process 01</span>
-                    <h3 className="td-about-3-title">Discuss about project</h3>
+                    <h3 className="td-about-3-title">Discovery Call</h3>
+                    <span className="td-about-3-order mb-10">
+                      Free Financial Discovery Call in Chennai
+                    </span>
+                    <p>
+                      We deep‑dive into your aspirations, fears, and current
+                      portfolio.
+                    </p>
                   </div>
                   <div className="td-about-3-icon">
                     <span>
@@ -87,10 +93,17 @@ export const AboutThree = () => {
                     </span>
                   </div>
                 </div>
-                <div className="td-about-3-list-item td-about-3-list-border pb-30 mb-35">
-                  <div className="td-about-3-content">
-                    <span className="td-about-3-order mb-5">Process 02</span>
-                    <h3 className="td-about-3-title">Find easy solutions</h3>
+
+                <div className="td-about-3-list-item td-about-3-list-border pb-30 mb-20">
+                 <div className="td-about-3-content">
+                    <h3 className="td-about-3-title">
+                                      Clarity Session
+                    </h3>
+                    <span className="td-about-3-order mb-10">Tailored Wealth Blueprint Session
+
+                    </span>
+                    <p> Receive your custom ₹10 Crore Wealth Blueprint—no strings attached.
+                    </p>
                   </div>
                   <div className="td-about-3-icon">
                     <span>
@@ -140,10 +153,60 @@ export const AboutThree = () => {
                     </span>
                   </div>
                 </div>
+                     <div className="td-about-3-list-item td-about-3-list-border pb-30 mb-20">
+                 <div className="td-about-3-content">
+                    <h3 className="td-about-3-title">
+                      Onboarding & Execution
+                    </h3>
+                    <span className="td-about-3-order mb-10">
+Seamless Investment Onboarding
+                    </span>
+                    <p> We guide you through investing in Mutual Funds, PMS, AIFs, and Fixed Income—all in one cohesive plan.
+
+                    </p>
+                  </div>
+                  <div className="td-about-3-icon">
+                        <span>
+                        <svg
+                          width="46"
+                          height="46"
+                          viewBox="0 0 60 60"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <g clipPath="url(#clip0_335_2992)">
+                            <path
+                              d="M57.7626 5.89302L53.4971 6.50251L54.1066 2.23701C54.3715 0.382983 52.1133 -0.75022 50.7869 0.577514L42.9613 8.40306C42.662 8.70236 42.4678 9.09083 42.408 9.5099L41.522 15.7115L31.8603 25.3732C31.0952 25.0071 30.2489 24.7852 29.3457 24.7852C26.1093 24.7852 23.4766 27.4179 23.4766 30.6543C23.4766 33.8906 26.1093 36.5234 29.3457 36.5234C32.582 36.5234 35.2148 33.8906 35.2148 30.6543C35.2148 29.751 34.9928 28.9048 34.6267 28.1397L44.2885 18.4779L50.49 17.592C50.9091 17.5321 51.2975 17.3379 51.5969 17.0386L59.4224 9.21306C60.7448 7.89037 59.6252 5.63205 57.7626 5.89302Z"
+                              fill="#B3BEC5"
+                            />
+                            <path
+                              d="M45.2175 23.0823L39.0194 29.2799C39.0832 29.7302 39.1276 30.1866 39.1276 30.6542C39.1276 36.0482 34.7397 40.4361 29.3457 40.4361C23.9517 40.4361 19.5638 36.0482 19.5638 30.6542C19.5638 25.2602 23.9516 20.8723 29.3457 20.8723C29.8132 20.8723 30.2695 20.9166 30.7196 20.9804L36.9175 14.7824C34.6201 13.6818 32.0587 13.0469 29.3457 13.0469C19.6371 13.0469 11.7383 20.9457 11.7383 30.6543C11.7383 40.3629 19.6371 48.2617 29.3457 48.2617C39.0543 48.2617 46.9531 40.3629 46.9531 30.6543C46.953 27.9412 46.3183 25.3798 45.2175 23.0823Z"
+                              fill="#9EAFB9"
+                            />
+                            <path
+                              d="M55.9266 18.242L54.3634 19.8051C53.4718 20.6974 52.2923 21.2871 51.0436 21.4653L48.9225 21.7685C50.1589 24.4811 50.8659 27.4838 50.8659 30.6543C50.8659 42.5206 41.212 52.1745 29.3457 52.1745C17.4795 52.1745 7.82555 42.5206 7.82555 30.6543C7.82555 18.788 17.4796 9.13414 29.3457 9.13414C32.5163 9.13414 35.5189 9.84113 38.2316 11.0776L38.5346 8.95648C38.7129 7.70762 39.3027 6.52824 40.1948 5.63598L41.7577 4.0734C37.9025 2.26789 33.6997 1.30859 29.3456 1.30859C13.1641 1.30859 0 14.4729 0 30.6543C0 46.8358 13.1643 60.0001 29.3457 60.0001C45.5272 60.0001 58.6915 46.8358 58.6915 30.6543C58.6915 26.3001 57.7322 22.0971 55.9266 18.242Z"
+                              fill="#20282D"
+                            />
+                          </g>
+                          <defs>
+                            <clipPath id="clip0_335_2992">
+                              <rect width="60" height="60" fill="white" />
+                            </clipPath>
+                          </defs>
+                        </svg>
+                      </span>
+                  </div>
+                </div>
                 <div className="td-about-3-list-item">
-                  <div className="td-about-3-content">
-                    <span className="td-about-3-order mb-5">Process 03</span>
-                    <h3 className="td-about-3-title">Troubleshooting</h3>
+                   <div className="td-about-3-content">
+                    <h3 className="td-about-3-title">
+                      Ongoing Reviews
+                    </h3>
+                    <span className="td-about-3-order mb-10">
+                      Regular Portfolio Review & Optimization
+                    </span>
+                    <p> Quarterly check‑ins ensure alignment with your evolving goals and market dynamics.
+                    </p>
                   </div>
                   <div className="td-about-3-icon">
                     <span>
@@ -179,6 +242,7 @@ export const AboutThree = () => {
                     </span>
                   </div>
                 </div>
+                
               </div>
             </div>
           </div>

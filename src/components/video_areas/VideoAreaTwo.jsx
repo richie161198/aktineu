@@ -93,7 +93,7 @@ export const VideoAreaTwo = () => {
                 </g>
               </svg>
             </span>
-            <a href="mailto:Aktineu@mail.com"> Aktineu@mail.com</a>
+            <a href="">connect@aktineu.com</a>
           </div>
           <div className="td-video-3-contact-item mb-45">
             <span className="td-video-3-contact-icon">
@@ -112,15 +112,15 @@ export const VideoAreaTwo = () => {
                 </g>
               </svg>
             </span>
-            <a href="tel:+1(800)123456789">+1 (800) 123 456 789</a>
+            <a href="tel:+1(800)123456789">+91 9994031721</a>
           </div>
           <div className="td-video-3-contact-item">
             <span className="td-video-3-contact-icon"> Office Address</span>
             <a
-              href="https://www.google.com/maps/@41.6758525,-86.2531698,18.17z"
+              href="https://www.google.com/maps/@13.033732,80.262212,18.17z"
               target="_blank"
             >
-              27 Division St, New York, NY 10002, USA
+              No. 4, Abhiramapuram 3rd Street, Chennai – 600018
             </a>
           </div>
         </div>

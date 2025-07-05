@@ -40,7 +40,7 @@ export const HeaderThree = () => {
                     <div className="col-xl-1 col-lg-2 col-6">
                       <div className="td-header-logo mr-90">
                         <Link to="/">
-                          <img src={LOGO_WHITE} alt="logo" />
+                          <img src={LOGO_WHITE} alt="logo p-20" />
                         </Link>
                       </div>
                     </div>
@@ -64,9 +64,9 @@ export const HeaderThree = () => {
                       <div className="td-header-3-btn text-right">
                         <Link
                           className="td-btn td-btn-7 td-left-right"
-                          to="/contact"
+                          to="https://aktineu.investwell.app/app/#/login"
                         >
-                          Let’s Talk
+                          Login
                           <span className="td-arrow-angle ml-10">
                             <svg
                               className="td-arrow-svg-top-right"

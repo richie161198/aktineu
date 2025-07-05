@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import  { useEffect } from "react";
 import $ from "jquery";
 import AboutA from "../../assets/img/about/a.png";
 import About1 from "../../assets/img/about/01.jpg";

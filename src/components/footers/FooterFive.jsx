@@ -26,7 +26,7 @@ export const FooterFive = () => {
                       </li>
                       <li>
                         <a
-                          href="https://www.google.com/maps/@41.6758525,-86.2531698,18.17z"
+                          href="https://www.google.com/maps/@13.033732,80.262212,18.17z"
                           target="_blank"
                         >
                           2938 Bingamon Branch Road
@@ -53,7 +53,7 @@ export const FooterFive = () => {
                       </li>
                       <li>
                         <a
-                          href="https://www.google.com/maps/@41.6758525,-86.2531698,18.17z"
+                          href="https://www.google.com/maps/@13.033732,80.262212,18.17z"
                           target="_blank"
                         >
                           2938 Bingamon Branch Road

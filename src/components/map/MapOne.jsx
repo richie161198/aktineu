@@ -36,11 +36,18 @@ export const MapOne = () => {
           <div className="col-lg-12">
             <div className="td-map-thumb p-relative">
               <img className="w-100" src={mapImage} alt="map" />
-              <span className="td-map-lucation-dot one td-pulse-border"></span>
+              {/* <span className="td-map-lucation-dot one td-pulse-border"></span>
               <span className="td-map-lucation-dot two td-pulse-border"></span>
               <span className="td-map-lucation-dot three td-pulse-border"></span>
               <span className="td-map-lucation-dot four td-pulse-border"></span>
-              <span className="td-map-lucation-dot five td-pulse-border"></span>
+              <span className="td-map-lucation-dot five td-pulse-border"></span> */}
+              <span className="td-map-lucation-dot india td-pulse-border"></span>
+      <span className="td-map-lucation-dot us td-pulse-border"></span>
+      <span className="td-map-lucation-dot europe td-pulse-border"></span>
+      <span className="td-map-lucation-dot australia td-pulse-border"></span>
+      <span className="td-map-lucation-dot middle-east td-pulse-border"></span>
+      <span className="td-map-lucation-dot singapore td-pulse-border"></span>
+      <span className="td-map-lucation-dot malaysia td-pulse-border"></span>
             </div>
           </div>
         </div>

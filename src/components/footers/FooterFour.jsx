@@ -43,8 +43,8 @@ export const FooterFour = () => {
                       <i className="fa-sharp fa-regular fa-location-dot"></i>71
                       South Los Carneros Road, California
                     </a>
-                    <a href="mailto:info@Aktineu-design.com">
-                      <i className="fa-regular fa-envelope"></i>Aktineu@mail.com
+                    <a href="mailto:connect@aktineu.com">
+                      <i className="fa-regular fa-envelope"></i>connect@aktineu.com
                     </a>
                     <a href="tel:+51174705812">
                       <span>

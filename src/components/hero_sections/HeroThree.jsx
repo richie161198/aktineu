@@ -77,11 +77,11 @@ export const HeroThree = () => {
             <div className="col-lg-6 col-md-8">
               <div className="td-hero-3-bottom-content">
                 <p>
-                  Get solid advice for your <a href="#">business.</a>
+                  Get solid advice for your <a href="#">financials.</a>
                 </p>
               </div>
             </div>
-            <div className="col-lg-6 col-md-4">
+            {/* <div className="col-lg-6 col-md-4">
               <div className="td-hero-3-bottom-btn text-right">
                 <Link className="td-btn td-btn-3 td-left-right" to="/contact">
                   Get Appointment
@@ -99,7 +99,7 @@ export const HeroThree = () => {
                   </span>
                 </Link>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

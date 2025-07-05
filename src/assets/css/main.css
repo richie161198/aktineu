@@ -11791,6 +11791,8 @@ input[type="color"] {
   height: 7px;
   border-radius: 50%;
   background: var(--td-theme-primary);
+    position: absolute;
+
 }
 .td-map-lucation-dot.td-pulse-border::after,
 .td-map-lucation-dot.td-pulse-border::before {
@@ -11804,7 +11806,7 @@ input[type="color"] {
   width: 180%;
   height: 180%;
 }
-.td-map-lucation-dot.one {
+/* .td-map-lucation-dot.one {
   position: absolute;
   top: 10%;
   left: 36%;
@@ -11828,6 +11830,40 @@ input[type="color"] {
   position: absolute;
   top: 35%;
   right: 19%;
+} */
+ .td-map-lucation-dot.india {
+  top: 50%;
+  left: 68%;
+}
+
+.td-map-lucation-dot.us {
+  top: 33%;
+  left: 22%;
+}
+
+.td-map-lucation-dot.europe {
+  top: 25%;
+  left: 52%;
+}
+
+.td-map-lucation-dot.australia {
+  top: 78%;
+  left: 85%;
+}
+
+.td-map-lucation-dot.middle-east {
+  top: 47%;
+  left: 60%;
+}
+
+.td-map-lucation-dot.singapore {
+  top: 63%;
+  left: 72%;
+}
+
+.td-map-lucation-dot.malaysia {
+  top: 65%;
+  left: 74%;
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px),
   only screen and (min-width: 768px) and (max-width: 991px),

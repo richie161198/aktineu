@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import  { useEffect } from "react";
 import $ from "jquery";
 import userIcon from "../../assets/img/contact/user.png";
 import envelopeIcon from "../../assets/img/contact/envelope-open.png";

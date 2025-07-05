@@ -116,7 +116,7 @@ export const ExperienceOne = () => {
                     <div className="col-lg-6 mb-30">
                       <div className="td-expreance-content">
                         <p className="td-expreance-title-pre">
-                          Business, Finance <span>/</span> June 21, 2024
+                          {/* Business, Finance <span>/</span> June 21, 2024 */}
                         </p>
                         <h3 className="td-expreance-title">
                           <span>01</span>Startup investment
@@ -126,10 +126,7 @@ export const ExperienceOne = () => {
                     <div className="col-lg-6 mb-30">
                       <div className="td-expreance-btn-wrap">
                         <p>
-                          Lorem Ipsum is simply dummy text of the printing and
-                          typesetting industry. Lorem Ipsum has been the
-                          industry's standard dummy text ever since the 1500s,
-                          when an unknow.
+                          Invest in high-potential startups with structured strategies. We guide you through due diligence, valuation, and risk to help grow your portfolio through innovation and scalable business models.
                         </p>
                         <div className="td-expreance-btn">
                           <a href="#">
@@ -175,7 +172,7 @@ export const ExperienceOne = () => {
                     <div className="col-lg-6 mb-30">
                       <div className="td-expreance-content">
                         <p className="td-expreance-title-pre">
-                          Business, Finance <span>/</span> June 21, 2024
+                          {/* Business, Finance <span>/</span> June 21, 2024 */}
                         </p>
                         <h3 className="td-expreance-title">
                           <span>02</span>Cryptocurrency investment
@@ -185,10 +182,9 @@ export const ExperienceOne = () => {
                     <div className="col-lg-6 mb-30">
                       <div className="td-expreance-btn-wrap">
                         <p>
-                          Lorem Ipsum is simply dummy text of the printing and
-                          typesetting industry. Lorem Ipsum has been the
-                          industry's standard dummy text ever since the 1500s,
-                          when an unknow.
+                          Gain strategic exposure to digital assets through risk-managed, compliant crypto investments. We help you diversify with blockchain-based opportunities while aligning with your long-term wealth creation goals.
+
+
                         </p>
                         <div className="td-expreance-btn">
                           <a href="#">
@@ -234,7 +230,7 @@ export const ExperienceOne = () => {
                     <div className="col-lg-6 mb-30">
                       <div className="td-expreance-content">
                         <p className="td-expreance-title-pre">
-                          Business, Finance <span>/</span> June 21, 2024
+                          {/* Business, Finance <span>/</span> June 21, 2024 */}
                         </p>
                         <h3 className="td-expreance-title">
                           <span>03</span>Business development
@@ -244,10 +240,9 @@ export const ExperienceOne = () => {
                     <div className="col-lg-6 mb-30">
                       <div className="td-expreance-btn-wrap">
                         <p>
-                          Lorem Ipsum is simply dummy text of the printing and
-                          typesetting industry. Lorem Ipsum has been the
-                          industry's standard dummy text ever since the 1500s,
-                          when an unknow.
+                          From capital planning to expansion strategies, we support your business growth. Our expertise ensures financial readiness, investor appeal, and sustainable scaling across every stage of development.
+
+
                         </p>
                         <div className="td-expreance-btn">
                           <a href="#">
@@ -293,7 +288,7 @@ export const ExperienceOne = () => {
                     <div className="col-lg-6 mb-30">
                       <div className="td-expreance-content">
                         <p className="td-expreance-title-pre">
-                          Business, Finance <span>/</span> June 21, 2024
+                          {/* Business, Finance <span>/</span> June 21, 2024 */}
                         </p>
                         <h3 className="td-expreance-title">
                           <span>04</span>Market compliance
@@ -303,10 +298,7 @@ export const ExperienceOne = () => {
                     <div className="col-lg-6 mb-30">
                       <div className="td-expreance-btn-wrap">
                         <p>
-                          Lorem Ipsum is simply dummy text of the printing and
-                          typesetting industry. Lorem Ipsum has been the
-                          industry's standard dummy text ever since the 1500s,
-                          when an unknow.
+                         Ensure every investment is SEBI and AMFI-compliant. We build portfolios with embedded regulatory checks, giving you peace of mind through governance, transparency, and proactive compliance oversight.
                         </p>
                         <div className="td-expreance-btn">
                           <a href="#">
@@ -338,7 +330,7 @@ export const ExperienceOne = () => {
                 </div>
               </div>
             </div>
-            <div
+            {/* <div
               className="col-lg-12 wow fadeInUp"
               data-wow-delay=".7s"
               data-wow-duration="1s"
@@ -396,7 +388,7 @@ export const ExperienceOne = () => {
                   </div>
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

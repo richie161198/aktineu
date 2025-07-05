@@ -1,4 +1,4 @@
-import React from "react";
+// import React from "react";
 import IMG_A from "../../assets/img/about/a.png";
 
 export const ContactOne = () => {
@@ -56,10 +56,10 @@ export const ContactOne = () => {
                       <h4 className="td-contact-info-title">Email:</h4>
                       <a
                         className="td-contact-info-link"
-                        href="mailto:Aktineu@email.com"
+                        href="mailto:connect@aktineu.com"
                         target="_blank"
                       >
-                        Aktineu@email.com
+                        connect@aktineu.com
                       </a>
                     </div>
                   </div>

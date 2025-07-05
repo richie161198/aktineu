@@ -15,27 +15,36 @@ import { FaqTwo } from "../../components/faq/FaqTwo";
 import { ChooseOne } from "../../components/choose/ChooseOne";
 // import { SubscribeOne } from "../../components/subscribe/SubscribeOne";
 import { TestimonialFour } from "../../components/testimonials/TestimonialFour";
+// import { HeroFour } from "../../components/hero_sections/HeroFour";
 
 export const HomeThree = () => {
   return (
     <Layout header={3} footer={3}>
       {/* hero */}
       <HeroThree />
-
-      {/* service area */}
-      <ServiceAreaThree />
+{/* <HeroFour/> */}
+ <div id="solutions">
+        <ServiceAreaThree />
+      </div>
 
       {/* about */}
-      <AboutThree />
+      <div id="aboutus">
+        <AboutThree />
+      </div>
 
       {/* video */}
       <VideoAreaTwo />
 
       {/* experience */}
       <ExperienceOne />
-
+  <FaqOne />
       {/* faq */}
-      <FaqOne />
+      <div id="blog">
+      
+      <ChooseOne />
+      </div>
+
+
 
       {/* testimonial */}
       {/* <TestimonialThree /> */}
@@ -45,7 +54,6 @@ export const HomeThree = () => {
 
 
       {/* choose */}
-      <ChooseOne />
 
       {/* faq */}
       <FaqTwo />
@@ -57,7 +65,10 @@ export const HomeThree = () => {
       
 
       {/* contact */}
+        <div id="contactus">
+      
       <ContactTwo />
+      </div>
     </Layout>
   );
 };

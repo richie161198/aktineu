@@ -37,7 +37,7 @@ export const FaqTwo = () => {
                       aria-expanded="true"
                       aria-controls="digital__collapse_one"
                     >
-                      How can your agency help my business grow?
+                      How often do we emphasize “Long-Term”?
                       <span className="accordion-btn">
                         <b className="td-btn-group p-relative">
                           <i className="fa-solid fa-arrow-up-long fa-fw td-up"></i>
@@ -54,12 +54,7 @@ export const FaqTwo = () => {
                   >
                     <div className="accordion-body td-faq-para">
                       <p>
-                        Our focus is on delivering superior value to our clients
-                        for company modification. Providing sustainable
-                        strategies that will upgrade their business. From
-                        strategy to delivery, we are here to make sure your
-                        business succeeds. Thinking, writing and planning with
-                        brand for more than 50 years.
+                        Quite often—over 50 times a day. That’s how committed we are to disciplined, long-term wealth creation.
                       </p>
                     </div>
                   </div>
@@ -78,7 +73,7 @@ export const FaqTwo = () => {
                       aria-expanded="false"
                       aria-controls="digital__collapse_two"
                     >
-                      What industries does your agency specialize in?
+                      Which client is the farthest from our office?
                       <span className="accordion-btn">
                         <b className="td-btn-group p-relative">
                           <i className="fa-solid fa-arrow-up-long fa-fw td-up"></i>
@@ -95,12 +90,7 @@ export const FaqTwo = () => {
                   >
                     <div className="accordion-body td-faq-para">
                       <p>
-                        Our focus is on delivering superior value to our clients
-                        for company modification. Providing sustainable
-                        strategies that will upgrade their business. From
-                        strategy to delivery, we are here to make sure your
-                        business succeeds. Thinking, writing and planning with
-                        brand for more than 50 years.
+                        We proudly serve clients across the globe, with our farthest based in the Netherlands—6,963 km away by air.
                       </p>
                     </div>
                   </div>
@@ -119,8 +109,8 @@ export const FaqTwo = () => {
                       aria-expanded="false"
                       aria-controls="digital__collapse_three"
                     >
-                      How do you approach developing a marketing strategy for
-                      clients?
+                      What’s the most common goal clients invest toward?
+
                       <span className="accordion-btn">
                         <b className="td-btn-group p-relative">
                           <i className="fa-solid fa-arrow-up-long fa-fw td-up"></i>
@@ -137,12 +127,44 @@ export const FaqTwo = () => {
                   >
                     <div className="accordion-body td-faq-para">
                       <p>
-                        Our focus is on delivering superior value to our clients
-                        for company modification. Providing sustainable
-                        strategies that will upgrade their business. From
-                        strategy to delivery, we are here to make sure your
-                        business succeeds. Thinking, writing and planning with
-                        brand for more than 50 years.
+                       Early Retirement tops the list. Many of our clients follow the FIRE movement—Financially Independent, Retire Early.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                  <div
+                  className="accordion-item td-faq-4-item wow fadeInUp"
+                  data-wow-delay=".8s"
+                  data-wow-duration="1s"
+                >
+                  <h2 className="accordion-header" id="digital_five">
+                    <button
+                      className="accordion-button collapsed td-faq-btn-2 td-faq-4-btn"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#digital__collapse_five"
+                      aria-expanded="false"
+                      aria-controls="digital__collapse_five"
+                    >
+                      How do we guarantee clarity in every client conversation?
+
+                      <span className="accordion-btn">
+                        <b className="td-btn-group p-relative">
+                          <i className="fa-solid fa-arrow-up-long fa-fw td-up"></i>
+                          <i className="fa-solid fa-arrow-down-long fa-fw td-down"></i>
+                        </b>
+                      </span>
+                    </button>
+                  </h2>
+                  <div
+                    id="digital__collapse_five"
+                    className="accordion-collapse collapse"
+                    aria-labelledby="digital_five"
+                    data-bs-parent="#return_faqaccordion"
+                  >
+                    <div className="accordion-body td-faq-para">
+                      <p>
+                       We close every interaction by summarizing key takeaways, inviting questions, and encouraging feedback—ensuring complete understanding and confidence.
                       </p>
                     </div>
                   </div>
@@ -161,8 +183,7 @@ export const FaqTwo = () => {
                       aria-expanded="false"
                       aria-controls="digital__collapse_four"
                     >
-                      Can you provide successful projects your agency has
-                      completed?
+                      How many mutual fund schemes have we reviewed?
                       <span className="accordion-btn">
                         <b className="td-btn-group p-relative">
                           <i className="fa-solid fa-arrow-up-long fa-fw td-up"></i>
@@ -179,12 +200,7 @@ export const FaqTwo = () => {
                   >
                     <div className="accordion-body td-faq-para">
                       <p>
-                        Our focus is on delivering superior value to our clients
-                        for company modification. Providing sustainable
-                        strategies that will upgrade their business. From
-                        strategy to delivery, we are here to make sure your
-                        business succeeds. Thinking, writing and planning with
-                        brand for more than 50 years.
+                        In just the last two years, we’ve analyzed over 400+ mutual fund schemes to ensure the best-fit portfolios for our clients.
                       </p>
                     </div>
                   </div>

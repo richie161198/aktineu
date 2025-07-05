@@ -21,7 +21,6 @@ import { Blog } from "./pages/blog/Blog";
 import { BlogDetails } from "./pages/blog/BlogDetails";
 import { Service } from "./pages/service/Service";
 import { ServiceDetails } from "./pages/service/ServiceDetails";
-import { Contact } from "./pages/contact/Contact";
 
 function App() {
   useWow();
@@ -44,17 +43,17 @@ function App() {
         <Route path="/home3" element={<HomeThree />} />
         <Route path="/home4" element={<HomeFour />} />
         <Route path="/home5" element={<HomeFive />} /> */}
-        <Route path="/about" element={<About />} />
+        {/* <Route path="/about" element={<About />} /> */}
         {/* <Route path="/portfolio" element={<Portfolio />} /> */}
         {/* <Route path="/portfolio-details" element={<PortfolioDetails />} /> */}
         {/* <Route path="/team" element={<Team />} /> */}
         {/* <Route path="/team-details" element={<TeamDetails />} /> */}
-        <Route path="/faq" element={<Faq />} />
+        {/* <Route path="/faq" element={<Faq />} />
         <Route path="/blog" element={<Blog />} />
         <Route path="/blog-details" element={<BlogDetails />} />
         <Route path="/service" element={<Service />} />
-        <Route path="/service-details" element={<ServiceDetails />} />
-        <Route path="/contact" element={<Contact />} />
+        <Route path="/service-details" element={<ServiceDetails />} /> */}
+        {/* <Route path="/privacypolicy" element={</>} /> */}
         <Route path="*" element={<ErrorPage />} />
       </Routes>
     </>

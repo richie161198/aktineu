@@ -57,12 +57,11 @@ export const ChooseOne = () => {
                       </span>
                     </div>
                     <div className="td-chose-content">
-                      <h4 className="td-chose-title">
-                        <Link to="/service-details">Financial Growth</Link>
+                      <h4 className="td-chose-title">Financial Growth
                       </h4>
                       <p>
-                        Our focus is on delivering superior value to our
-                        clients.
+                        Strategic, long-term wealth creation tailored to your
+                        life goals—not market hype.
                       </p>
                     </div>
                   </div>
@@ -110,11 +109,11 @@ export const ChooseOne = () => {
                     </div>
                     <div className="td-chose-content">
                       <h4 className="td-chose-title">
-                        <Link to="/service-details">Goal Archive</Link>
+                        Goal Archive
                       </h4>
                       <p>
-                        Our focus is on delivering superior value to our
-                        clients.
+                        Every portfolio is purpose-built to help you reach your
+                        ₹10 Crore milestone.
                       </p>
                     </div>
                   </div>
@@ -157,12 +156,11 @@ export const ChooseOne = () => {
                       </span>
                     </div>
                     <div className="td-chose-content">
-                      <h4 className="td-chose-title">
-                        <Link to="/service-details">Business Planning</Link>
+                      <h4 className="td-chose-title">Business Planning
                       </h4>
                       <p>
-                        Our focus is on delivering superior value to our
-                        clients.
+                        We help structure your finances and investments like a
+                        well-run enterprise.
                       </p>
                     </div>
                   </div>
@@ -225,12 +223,11 @@ export const ChooseOne = () => {
                       </span>
                     </div>
                     <div className="td-chose-content">
-                      <h4 className="td-chose-title">
-                        <Link to="/service-details">Boost Business</Link>
+                      <h4 className="td-chose-title">Boost Business
                       </h4>
                       <p>
-                        Our focus is on delivering superior value to our
-                        clients.
+                        Scale your wealth with high-growth investment options
+                        like PMS and AIFs.
                       </p>
                     </div>
                   </div>
@@ -273,12 +270,11 @@ export const ChooseOne = () => {
                       </span>
                     </div>
                     <div className="td-chose-content">
-                      <h4 className="td-chose-title">
-                        <Link to="/service-details">Idea Generate</Link>
+                      <h4 className="td-chose-title">Idea Generation
                       </h4>
                       <p>
-                        Our focus is on delivering superior value to our
-                        clients.
+                        Innovative strategies built on research, risk profiling,
+                        and market intelligence.
                       </p>
                     </div>
                   </div>
@@ -321,12 +317,11 @@ export const ChooseOne = () => {
                       </span>
                     </div>
                     <div className="td-chose-content">
-                      <h4 className="td-chose-title">
-                        <Link to="/service-details">Business Growth</Link>
+                      <h4 className="td-chose-title">Business Growth
                       </h4>
                       <p>
-                        Our focus is on delivering superior value to our
-                        clients.
+                        Certified advisors design compounding-driven plans
+                        to grow your financial.
                       </p>
                     </div>
                   </div>

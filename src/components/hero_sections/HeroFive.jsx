@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import  { useEffect } from "react";
 import { Link } from "react-router-dom";
 import thumbImg from "../../assets/img/hero/hero5/thumb.png";
 import shapeImg from "../../assets/img/hero/hero5/shape.png";

@@ -1,4 +1,4 @@
-import React, { useRef } from "react";
+import  { useRef } from "react";
 import thumb1 from "../../assets/img/testimonial/tes-3/thumb.png";
 import thumb2 from "../../assets/img/testimonial/tes-3/thumb2.png";
 import brand1 from "../../assets/img/brands/01.png";

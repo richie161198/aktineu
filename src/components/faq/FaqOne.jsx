@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import  { useEffect } from "react";
 import $ from "jquery";
 import patternImg from "../../assets/img/faq/pattern.png";
 import shapeImg from "../../assets/img/about/about3/shape.png";
@@ -83,7 +83,7 @@ export const FaqOne = () => {
                       aria-expanded="true"
                       aria-controls="digital__collapse_one"
                     >
-                      What is the difference between a stock and a bond?
+                      What’s the difference between SIP and lump sum investment?
                       <span className="accordion-btn"></span>
                     </button>
                   </h2>
@@ -95,9 +95,9 @@ export const FaqOne = () => {
                   >
                     <div className="accordion-body td-faq-para">
                       <p>
-                        Our focus is on delivering superior value to our clients
-                        for company modification. Providing sustainable
-                        strategies that will upgrade their business.
+                        SIP (Systematic Investment Plan) means you invest a
+                        small amount regularly (like monthly), while a lump sum
+                        means you invest a big amount all at once.
                       </p>
                     </div>
                   </div>
@@ -112,7 +112,7 @@ export const FaqOne = () => {
                       aria-expanded="false"
                       aria-controls="digital__collapse_two"
                     >
-                      What is ROI and how is it calculated?
+                      Can I pause or stop my SIP anytime?
                       <span className="accordion-btn"></span>
                     </button>
                   </h2>
@@ -124,9 +124,9 @@ export const FaqOne = () => {
                   >
                     <div className="accordion-body td-faq-para">
                       <p>
-                        Our focus is on delivering superior value to our clients
-                        for company modification. Providing sustainable
-                        strategies that will upgrade their business.
+                        Yes, you can pause or stop your SIP whenever you want.
+                        There are no penalties, and your money stays invested.
+                        You can restart it later if needed.
                       </p>
                     </div>
                   </div>
@@ -141,7 +141,7 @@ export const FaqOne = () => {
                       aria-expanded="false"
                       aria-controls="digital__collapse_three"
                     >
-                      What are the key components of a business plan?
+                      Can I switch from one mutual fund to another?
                       <span className="accordion-btn"></span>
                     </button>
                   </h2>
@@ -153,10 +153,12 @@ export const FaqOne = () => {
                   >
                     <div className="accordion-body td-faq-para">
                       <p>
-                        Our focus is on delivering superior value to our clients
-                        for company modification. Providing sustainable
-                        strategies that will upgrade their business.
+                        Yes, you can switch from one mutual fund to another
+                        within the same AMC (fund house). It’s like selling from
+                        one and buying into another. Just keep in mind:
                       </p>
+                      <li> Tax may apply on the amount you switch.</li>
+                      <li> Exit load may be charged if you switch early.</li>
                     </div>
                   </div>
                 </div>
@@ -170,7 +172,7 @@ export const FaqOne = () => {
                       aria-expanded="false"
                       aria-controls="digital__collapse_four"
                     >
-                      What is diversification in investment portfolios?
+                      How often should I review my mutual fund portfolio?
                       <span className="accordion-btn"></span>
                     </button>
                   </h2>
@@ -182,9 +184,9 @@ export const FaqOne = () => {
                   >
                     <div className="accordion-body td-faq-para">
                       <p>
-                        Our focus is on delivering superior value to our clients
-                        for company modification. Providing sustainable
-                        strategies that will upgrade their business.
+                        Once every 6 months or at least once a year is good
+                        enough. No need to check every day. Focus on whether the
+                        fund still fits your goal—not short-term ups and downs.
                       </p>
                     </div>
                   </div>
@@ -199,7 +201,8 @@ export const FaqOne = () => {
                       aria-expanded="false"
                       aria-controls="digital__collapse_five"
                     >
-                      What is liquidity in finance?
+                      How long does it take to receive the money after
+                      redemption?
                       <span className="accordion-btn"></span>
                     </button>
                   </h2>
@@ -211,10 +214,14 @@ export const FaqOne = () => {
                   >
                     <div className="accordion-body td-faq-para">
                       <p>
-                        Our focus is on delivering superior value to our clients
-                        for company modification. Providing sustainable
-                        strategies that will upgrade their business.
+                        Usually, you’ll get the money in your bank account
+                        within 1–3 working days after you place the redemption
+                        request, depending on the type of fund: 
                       </p>
+                      
+                      <li>Equity Funds – 1–2 working days</li>
+                      <li>Debt Funds – 1 working day </li>
+                      <li>Liquid Funds – Often same day</li>
                     </div>
                   </div>
                 </div>

@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import  { useState } from "react";
 import badgeImg from "../../assets/img/hero/hero4/badge.png";
 import bgImg from "../../assets/img/hero/hero4/bg.jpg";
 import bg2Img from "../../assets/img/hero/hero4/bg2.jpg";

@@ -21,23 +21,19 @@ export const ContactThree = () => {
                     <div className="row align-items-center">
                       <div className="col-xl-7 col-lg-6 col-md-6 col-sm-5">
                         <div className="td-contact-4-thumb">
-                          <img
-                            className="w-100"
-                            src={londonImg}
-                            alt=""
-                          />
+                          <img className="w-100" src={londonImg} alt="" />
                         </div>
                       </div>
                       <div className="col-xl-5 col-lg-6 col-md-6 col-sm-7">
                         <div className="td-contact-4-content">
-                          <h3 className="td-contact-4-title mb-30">London</h3>
+                          <h3 className="td-contact-4-title mb-30">Chennai</h3>
                           <ul>
                             <li>
                               <a
                                 className="td-contact-4-email"
                                 href="mailto:info@Aktineu-design.com"
                               >
-                                info@Aktineu-design.com
+                                connect@aktineu.com
                               </a>
                             </li>
                             <li className="mb-10">
@@ -45,62 +41,18 @@ export const ContactThree = () => {
                                 className="td-contact-4-phone"
                                 href="tel:+(123)45678900"
                               >
-                                +(123) 456 789 00
+                                +91 9994031721
                               </a>
                             </li>
                             <li>
                               <Link
                                 className="td-contact-4-addres"
-                                to="https://www.google.com/maps/@41.6758525,-86.2531698,18.17z"
+                                to="https://www.google.com/maps/@13.033732,80.262212,18.17zz"
                                 target="_blank"
                               >
-                                2938 Bingamon Branch Road Highland Park, IL 60035
+                                No. 4, Sri Ganesh Apartments, #3 Abhiramapuram
+                                3rd Street, Chennai – 600018{" "}
                               </Link>
-                            </li>
-                          </ul>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="col-12 mb-40">
-                    <div className="row align-items-center">
-                      <div className="col-xl-7 col-lg-6 col-md-6 col-sm-5">
-                        <div className="td-contact-4-thumb">
-                          <img
-                            className="w-100"
-                            src={newYorkImg}
-                            alt=""
-                          />
-                        </div>
-                      </div>
-                      <div className="col-xl-5 col-lg-6 col-md-6 col-sm-7">
-                        <div className="td-contact-4-content">
-                          <h3 className="td-contact-4-title mb-30">New York</h3>
-                          <ul>
-                            <li>
-                              <a
-                                className="td-contact-4-email"
-                                href="mailto:info@Aktineu-design.com"
-                              >
-                                info@Aktineu-design.com
-                              </a>
-                            </li>
-                            <li className="mb-10">
-                              <a
-                                className="td-contact-4-phone"
-                                href="tel:+(123)45678900"
-                              >
-                                +(123) 456 789 00
-                              </a>
-                            </li>
-                            <li>
-                              <a
-                                className="td-contact-4-addres"
-                                href="https://www.google.com/maps/@13.0827,80.2707,18z"
-                                target="_blank"
-                              >
-                                2938 Bingamon Branch Road Highland Park, IL 60035
-                              </a>
                             </li>
                           </ul>
                         </div>
