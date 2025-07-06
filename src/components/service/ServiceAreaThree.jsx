@@ -41,7 +41,7 @@ export const ServiceAreaThree = () => {
       imgSrc: serviceImg04,
       // href: "/service-details",
       tag1: "Fixed Income",
-      tag2: "Instruments (FII)",
+      tag2: "Instruments",
       description:
         "Safe Fixed Income Investments. Balanced allocations with predictable cash flows and risk mitigation",
       number: "04",

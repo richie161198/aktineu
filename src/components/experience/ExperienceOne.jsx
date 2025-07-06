@@ -101,7 +101,7 @@ export const ExperienceOne = () => {
             </div>
           </div>
 
-          <div className="row">
+          {/* <div className="row">
             <div
               className="col-lg-12 wow fadeInUp"
               data-wow-delay=".3s"
@@ -116,7 +116,7 @@ export const ExperienceOne = () => {
                     <div className="col-lg-6 mb-30">
                       <div className="td-expreance-content">
                         <p className="td-expreance-title-pre">
-                          {/* Business, Finance <span>/</span> June 21, 2024 */}
+                          Business, Finance <span>/</span> June 21, 2024 
                         </p>
                         <h3 className="td-expreance-title">
                           <span>01</span>Startup investment
@@ -172,7 +172,7 @@ export const ExperienceOne = () => {
                     <div className="col-lg-6 mb-30">
                       <div className="td-expreance-content">
                         <p className="td-expreance-title-pre">
-                          {/* Business, Finance <span>/</span> June 21, 2024 */}
+                          Business, Finance <span>/</span> June 21, 2024 
                         </p>
                         <h3 className="td-expreance-title">
                           <span>02</span>Cryptocurrency investment
@@ -230,7 +230,7 @@ export const ExperienceOne = () => {
                     <div className="col-lg-6 mb-30">
                       <div className="td-expreance-content">
                         <p className="td-expreance-title-pre">
-                          {/* Business, Finance <span>/</span> June 21, 2024 */}
+                          Business, Finance <span>/</span> June 21, 2024 
                         </p>
                         <h3 className="td-expreance-title">
                           <span>03</span>Business development
@@ -288,7 +288,7 @@ export const ExperienceOne = () => {
                     <div className="col-lg-6 mb-30">
                       <div className="td-expreance-content">
                         <p className="td-expreance-title-pre">
-                          {/* Business, Finance <span>/</span> June 21, 2024 */}
+                          Business, Finance <span>/</span> June 21, 2024 
                         </p>
                         <h3 className="td-expreance-title">
                           <span>04</span>Market compliance
@@ -388,8 +388,8 @@ export const ExperienceOne = () => {
                   </div>
                 </div>
               </div>
-            </div> */}
-          </div>
+            </div> 
+          </div> */}
         </div>
       </div>
     </div>

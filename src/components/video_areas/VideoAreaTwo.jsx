@@ -29,7 +29,7 @@ export const VideoAreaTwo = () => {
                         <div className="swiper-slide">
                           <div className="td-hero-text-slider-content td-video-3-slider-content text-center">
                             <h4 className="td-testimonial-slider-title-tr">
-                              Hire us for your next project
+                              Secure Your Financial Future with Aktineu
                             </h4>
                           </div>
                         </div>
@@ -39,7 +39,7 @@ export const VideoAreaTwo = () => {
                         <div className="swiper-slide">
                           <div className="td-hero-text-slider-content td-video-3-slider-content text-center">
                             <h4 className="td-testimonial-slider-title-tr">
-                              Hire us for your next project
+                              Secure Your Financial Future with Aktineu
                             </h4>
                           </div>
                         </div>

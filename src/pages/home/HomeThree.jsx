@@ -15,6 +15,9 @@ import { FaqTwo } from "../../components/faq/FaqTwo";
 import { ChooseOne } from "../../components/choose/ChooseOne";
 // import { SubscribeOne } from "../../components/subscribe/SubscribeOne";
 import { TestimonialFour } from "../../components/testimonials/TestimonialFour";
+import { ServiceAreaFive } from "../../components/service/ServiceAreaFive";
+import { CtaOne } from "../../components/cta/CtaOne";
+import { AboutTwo } from "../../components/about/AboutTwo";
 // import { HeroFour } from "../../components/hero_sections/HeroFour";
 
 export const HomeThree = () => {
@@ -22,15 +25,24 @@ export const HomeThree = () => {
     <Layout header={3} footer={3}>
       {/* hero */}
       <HeroThree />
-{/* <HeroFour/> */}
+      {/* <HeroFour/> */}
+   
+            
  <div id="solutions">
         <ServiceAreaThree />
       </div>
-
-      {/* about */}
-      <div id="aboutus">
-        <AboutThree />
+      
+            {/* <AboutTwo /> */}
+      
+            {/* services */}
+            {/* <ServiceAreaTwo /> */}
+    <div id="aboutus">
+      <ServiceAreaFive/>
+{/* <CtaOne/> */}
       </div>
+      {/* about */}
+     
+        <AboutThree />
 
       {/* video */}
       <VideoAreaTwo />
@@ -62,7 +74,6 @@ export const HomeThree = () => {
       
             <TestimonialFour />
             <MapOne />
-      
 
       {/* contact */}
         <div id="contactus">

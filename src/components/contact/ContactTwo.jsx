@@ -60,7 +60,7 @@ export const ContactTwo = () => {
             <div className="col-lg-4 mb-40">
               <div className="td-contact-3-btn">
                 <button className="td-btn-rounded" type="button">
-                  Send Messages
+                  Submit
                   <i className="td-btn-circle-dot"></i>
                 </button>
               </div>

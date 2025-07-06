@@ -48,7 +48,7 @@ export const FaqOne = () => {
                 alt="shape"
               />
               <img className="w-100" src={bgImg} alt="thumb" />
-              <div className="td-faq-badge">
+              {/* <div className="td-faq-badge">
                 <div className="td-testimonial-qoute-thumb p-relative">
                   <img
                     className="td-testimonial-qoute"
@@ -61,7 +61,7 @@ export const FaqOne = () => {
                     alt="badge"
                   />
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
 

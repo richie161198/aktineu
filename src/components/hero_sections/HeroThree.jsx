@@ -2,7 +2,8 @@ import React from "react";
 import BG from "../../assets/img/hero/hero3/bg.jpg";
 import IMG_VIDEO from "../../assets/img/video/video.jpg";
 import { VideoPlayer } from "../video/VideoPlayer";
-import { Link } from "react-router-dom";
+import { Link } from "react-router-dom";import { Swiper, SwiperSlide } from "../swiper/SwiperRoot";
+
 
 export const HeroThree = () => {
   return (
@@ -31,13 +32,19 @@ export const HeroThree = () => {
                     <span className="last">Advisors</span>
                   </b>
                 </h2>
+                 {/* <div className="td-hero-text-slider mb-70">
+          <TextSlider />
+
+                </div>     */}
+              
               </div>
             </div>
           </div>
         </div>
+        
       </div>
-
-      <div className="td-hero-3-video-transparent">
+  
+      {/* <div className="td-hero-3-video-transparent">
         <div className="container">
           <div className="row">
             <div className="col-lg-12">
@@ -77,7 +84,7 @@ export const HeroThree = () => {
             <div className="col-lg-6 col-md-8">
               <div className="td-hero-3-bottom-content">
                 <p>
-                  Get solid advice for your <a href="#">financials.</a>
+                  Let’s Build Your ₹10 Crore Portfolio <a href="#"> with Aktineu.</a>
                 </p>
               </div>
             </div>
@@ -99,9 +106,50 @@ export const HeroThree = () => {
                   </span>
                 </Link>
               </div>
-            </div> */}
+            </div> 
           </div>
         </div>
+      </div> */}
+      
+    </div>
+  );
+};
+
+
+const TextSlider = () => {
+  const LIST_OF_TEXT_SLIDES = [
+    "Business",
+    "Agency",
+    "Business",
+    "Agency",
+    "Business",
+    "Agency",
+  ];
+
+  const swiper_settings = {
+    loop: true,
+    speed: 400000,
+    allowTouchMove: false,
+    slidesPerView: "auto",
+    slidesPerGroup: 10,
+    spaceBetween: 0,
+    autoplay: { delay: 0, disableOnInteraction: false },
+  };
+
+  return (
+    <div className="r td-hero-text-slider-active">
+      <div className="swiper-wrapper slide-transtion">
+        <Swiper {...swiper_settings}>
+          {LIST_OF_TEXT_SLIDES.map((text, index) => (
+            <SwiperSlide key={index}>
+              <div className="swiper-slide">
+                <div className="td-hero-text-slider-content text-center">
+                  <h4 className="td-hero-text-slider-title">{text}</h4>
+                </div>
+              </div>
+            </SwiperSlide>
+          ))}
+        </Swiper>
       </div>
     </div>
   );

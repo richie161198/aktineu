@@ -23,11 +23,14 @@ export const MapOne = () => {
           <div className="col-lg-8">
             <div className="td-map-para">
               <p>
-                Our focus is on delivering superior value to our clients for
-                company modification. Providing sustainable strategies that will
-                upgrade their business. From strategy to delivery, we are here
-                to make sure your business succeeds. Thinking, writing and
-                planning with brand for more than 50 years.
+                Our focus is on delivering long-term financial value
+                to our clients through compliant and goal-driven investment
+                strategies. We design sustainable wealth-building solutions
+                aligned with your life goals and market realities. From
+                strategic planning to portfolio execution, we’re here to ensure
+                your financial journey succeeds. Backed by decades of expertise
+                in disciplined investing, we think, plan, and invest with your
+                future in mind.
               </p>
             </div>
           </div>
@@ -42,12 +45,12 @@ export const MapOne = () => {
               <span className="td-map-lucation-dot four td-pulse-border"></span>
               <span className="td-map-lucation-dot five td-pulse-border"></span> */}
               <span className="td-map-lucation-dot india td-pulse-border"></span>
-      <span className="td-map-lucation-dot us td-pulse-border"></span>
-      <span className="td-map-lucation-dot europe td-pulse-border"></span>
-      <span className="td-map-lucation-dot australia td-pulse-border"></span>
-      <span className="td-map-lucation-dot middle-east td-pulse-border"></span>
-      <span className="td-map-lucation-dot singapore td-pulse-border"></span>
-      <span className="td-map-lucation-dot malaysia td-pulse-border"></span>
+              <span className="td-map-lucation-dot us td-pulse-border"></span>
+              <span className="td-map-lucation-dot europe td-pulse-border"></span>
+              <span className="td-map-lucation-dot australia td-pulse-border"></span>
+              <span className="td-map-lucation-dot middle-east td-pulse-border"></span>
+              <span className="td-map-lucation-dot singapore td-pulse-border"></span>
+              <span className="td-map-lucation-dot malaysia td-pulse-border"></span>
             </div>
           </div>
         </div>

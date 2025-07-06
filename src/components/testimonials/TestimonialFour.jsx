@@ -117,7 +117,7 @@ export const TestimonialFour = () => {
           </div>
         </div>
 
-        <div className="row align-items-center">
+        {/* <div className="row align-items-center">
           <div className="col-lg-8 col-md-8">
             <div className="td-testimonial-4-bottom-content pt-30">
               <h4 className="td-testimonial-4-title">
@@ -145,7 +145,7 @@ export const TestimonialFour = () => {
               </Link>
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   );
