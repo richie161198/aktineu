@@ -26,7 +26,7 @@ export const ContactTwo = () => {
           <div className="row align-items-end">
             <div className="col-lg-8 mb-40">
               <div className="td-contact-3-content mb-60">
-                <h2 className="td-section-title mb-20">Contact us</h2>
+                <h2 className="td-section-title mb-20">Schedule a call</h2>
                 <p>
                   Our focus is on delivering superior value to our clients for
                   company modification.
