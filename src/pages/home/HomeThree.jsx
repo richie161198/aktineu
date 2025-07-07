@@ -42,7 +42,7 @@ export const HomeThree = () => {
       </div>
       {/* about */}
      
-        <AboutThree />
+        {/* <AboutThree /> */}
 
       {/* video */}
       <VideoAreaTwo />
