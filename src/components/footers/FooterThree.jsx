@@ -75,9 +75,10 @@ export const FooterThree = () => {
                           href="https://www.google.com/maps/@13.033732,80.262212,18.17z"
                           target="_blank"
                         >
-                          No. 4, Sri Ganesh Apartments,
+                          Flat No. 4, Sri Ganesh Apartments,
                           <br />
-                          Abhiramapuram 3rd Street, Chennai – 600018
+                          #3 Abhiramapuram 3rd Street,
+                          <br /> Chennai – 600018
                         </a>
                       </div>
                     </div>

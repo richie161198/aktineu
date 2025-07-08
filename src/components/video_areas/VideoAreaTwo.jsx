@@ -120,7 +120,11 @@ export const VideoAreaTwo = () => {
               href="https://www.google.com/maps/@13.033732,80.262212,18.17z"
               target="_blank"
             >
-              No. 4, Abhiramapuram 3rd Street, Chennai – 600018
+              
+                          Flat No. 4, Sri Ganesh Apartments,
+                          
+                          #3 Abhiramapuram 3rd Street,
+                          Chennai – 600018
             </a>
           </div>
         </div>
