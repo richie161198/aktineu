@@ -1,28 +1,26 @@
 import React from "react";
 import { Layout } from "../../layouts/Layout";
 import { Link } from "react-router-dom";
-import teamDetailsImage from "../../assets/img/team/team5/details.jpg";
+import teamDetailsImage from "../../assets/img/team/team5/s1.jpg";
 
 export const TeamDetails = () => {
   return (
-    <Layout
-      breadcrumbTitle={"Single Team"}
-      breadcrumbSubtitle={"Miranda H. Halim"}
-    >
-      <div className="td-team-details-area pt-140 pb-90">
-        <div className="container">
-          <div className="row">
-            <div className="col-lg-5">
-              <div className="td-team-details-thumb mb-40 mr-20">
-                <img className="w-100" src={teamDetailsImage} alt="thumb" />
-              </div>
+    <div className="td-team-details-area pt-90 pb-90">
+      <div className="container">
+        <div className="row">
+          <div className="col-lg-5">
+            <div className="td-team-details-thumb mb-40 mr-20">
+              <img className="w-100" src={teamDetailsImage} alt="thumb" />
             </div>
-            <div className="col-lg-7">
-              <div className="td-team-details-content mb-40">
-                <h3 className="td-team-details-title">Miranda H. Halim</h3>
-                <span className="td-team-details-subtitle mb-35">Founder</span>
-                <div className="td-team-details-social mb-35">
-                  <span className="mb-10">
+          </div>
+          <div className="col-lg-7">
+            <div className="td-team-details-content mb-40">
+              <h3 className="td-team-details-title">Shandhanu K</h3>
+              <span className="td-team-details-subtitle mb-35">
+                Founder, Aktineu LLP
+              </span>
+              <div className="td-team-details-social mb-35">
+                {/* <span className="mb-10">
                     <a href="mailto:info@Aktineu.com">
                       <i className="fa-solid fa-envelope-open"></i>
                       info@Aktineu.com
@@ -60,64 +58,87 @@ export const TeamDetails = () => {
                         <i className="fa-brands fa-youtube"></i>
                       </Link>
                     </li>
-                  </ul>
-                </div>
-                <div className="td-team-details-biography mb-45">
-                  <h3 className="td-team-details-biography-title mb-20">
-                    Biography
-                  </h3>
-                  <p>
-                    A consultant is a professional who provides expert advice
-                    and guidance to individuals or organizations in a particular
-                    field or industry. Consultants are typically hired to solve
-                    problems, improve performance, or provide specialized
-                    knowledge that the client lacks internally. Consultants can
-                    work independently or as part of consulting firms. They may
-                    specialize in various areas such as management, finance,
-                    technology, human resources, marketing, or specific
-                    industries like healthcare, IT, or manufacturing.
-                  </p>
-                </div>
-                <div className="td-team-details-education mb-50">
-                  <h3 className="td-team-details-biography-title mb-15">
-                    Education
-                  </h3>
-                  <ul>
-                    <li>
-                      Bachelor of Science in Civil Engineering - University of
-                      Alberta
-                    </li>
-                    <li>
-                      Ivey Executive Program - University of Western Ontario
-                    </li>
-                    <li>CCA Gold-Seal certified project manager</li>
-                  </ul>
-                </div>
+                  </ul> */}
                 <div className="td-team-details-skill">
-                  <h3 className="td-team-details-biography-title mb-15">
+                  {/* <h3 className="td-team-details-biography-title mb-15">
                     Skillset
-                  </h3>
+                  </h3> */}
+
                   <ul>
                     <li>
-                      <Link to="#">Business Consultancy</Link>
-                      <span>/</span>
+                      <h3 className="td-team-details-biography-title mb-15">
+                        Engineer Turned Wealth Strategist |
+                      </h3>
+                      {/* <Link to="#">Business Consultancy</Link> */}
                     </li>
                     <li>
-                      <Link to="#">ROI Development</Link> <span>/</span>
+                      <h3 className="td-team-details-biography-title mb-15">
+                        {" "}
+                        AMFI & NISM Certified
+                      </h3>
+                      {/* <Link to="#">Business Consultancy</Link> */}
                     </li>
-                    <li>
+                    {/* <li> */}
+
+                    {/* <Link to="#">ROI Development</Link> <span>/</span> */}
+                    {/* </li> */}
+                    {/* <li>
                       <Link to="#">Business Growth</Link> <span>/</span>
                     </li>
                     <li>
                       <Link to="#">UX Design</Link>
-                    </li>
+                    </li> */}
                   </ul>
                 </div>
+              </div>
+
+              <div className="td-team-details-biography mb-45 text-justify">
+                <h3 className="td-team-details-biography-title  mb-20">
+                  Biography
+                </h3>
+                <p className=" ">
+                  Some journeys begin with numbers. Shandhanu’s began with
+                  intent. Born into a family of equity market participants, his
+                  natural curiosity toward finance grew alongside the scent of
+                  newspapers and the hum of trading terminals. Though trained as
+                  an engineer, it was capital markets that truly captured his
+                  interest and led him to pursue certifications from NISM, AMFI,
+                  and APMI in Mutual Fund and PMS distribution. With over 200
+                  clients and ₹100+ crores of advisory experience behind him.
+                </p>
+                <div className="td-team-details-education text-center text-bold mb-30 mt-30">
+                  <h4 className="td-team-details-biography-title mb-15">
+                    <b>
+                      “Investment advice should be strategic, timely, and always
+                      unbiased.”{" "}
+                    </b>
+                  </h4>
+                </div>
+                He thrives in the analytical depths of fund fact sheets, client
+                profiling, and tactical rebalancing. His typical day spans:
+                <li className="mt-10">
+                  Managing non-financial transactions with razor-sharp
+                  compliance
+                </li>
+                <li>Client strategy sessions</li>
+                <li>
+                  Peer discussions to form neutral perspectives a practice he
+                  likens to independent directorship
+                </li>
               </div>
             </div>
           </div>
         </div>
+        <div className="td-team-details-biography ">
+          <p>
+            Shandhanu believes that the market constantly offers opportunities,
+            but without proper risk management and strategic planning, even the
+            best products can underdeliver. His work is centered on building
+            investor confidence, focusing on suitability, and ensuring the
+            longevity of wealth across generations.
+          </p>
+        </div>
       </div>
-    </Layout>
+    </div>
   );
 };

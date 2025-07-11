@@ -51,13 +51,13 @@ export const HeaderThree = () => {
                       </div>
 
                       {/* mobile icon */}
-                      <div className="td-header-bar td-header-bar-white d-block d-lg-none text-right">
+                      {/* <div className="td-header-bar td-header-bar-white d-block d-lg-none text-right">
                         <button className="td-offcanvas-open-btn td-menu-bar">
                           <span></span>
                           <span></span>
                           <span></span>
                         </button>
-                      </div>
+                      </div> */}
                     </div>
 
                     <div className="col-xl-3 col-lg-2 d-none d-lg-block">
@@ -68,7 +68,7 @@ export const HeaderThree = () => {
                           target="_blank"
                           rel="noopener noreferrer"
                         >
-                          Login
+                          Client Login
                           <span className="td-arrow-angle ml-10">
                             <svg
                               className="td-arrow-svg-top-right"

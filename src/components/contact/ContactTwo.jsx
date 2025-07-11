@@ -2,7 +2,9 @@ import  { useEffect } from "react";
 import $ from "jquery";
 import userIcon from "../../assets/img/contact/user.png";
 import envelopeIcon from "../../assets/img/contact/envelope-open.png";
+import phoneIcon from "../../assets/img/contact/phone.png";
 import penIcon from "../../assets/img/contact/pen.png";
+import { ContactMap } from "./ContactMap";
 
 
 export const ContactTwo = () => {
@@ -24,7 +26,7 @@ export const ContactTwo = () => {
       <form action="#">
         <div className="container">
           <div className="row align-items-end">
-            <div className="col-lg-8 mb-40">
+            <div className="col-lg-6 mb-40">
               <div className="td-contact-3-content mb-60">
                 <h2 className="td-section-title mb-20">Schedule a call</h2>
                 <p>
@@ -34,7 +36,7 @@ export const ContactTwo = () => {
                   Providing sustainable strategies that will upgrade.
                 </p>
               </div>
-              <div className="td-contact-3-form-wrap">
+              <div className="td-contact-form">
                 <div className="row">
                   <div className="col-lg-6">
                     <div className="td-contact-form td-contact-3-input">
@@ -48,22 +50,25 @@ export const ContactTwo = () => {
                       <img src={envelopeIcon} alt="envelope" />
                     </div>
                   </div>
-                  <div className="col-lg-12">
+                  <div className="col-lg-6">
+                    <div className="td-contact-form td-contact-3-input">
+                      <input type="text" placeholder="Your Phone no." />
+                      <img src={phoneIcon} alt="envelope" />
+                    </div>
+                  </div>
+                  <div className="col-lg-12 mb-40">
                     <div className="td-contact-form td-contact-3-input">
                       <textarea placeholder="Message"></textarea>
                       <img className="envelope" src={penIcon} alt="pen" />
                     </div>
                   </div>
-                </div>
+                </div>                                      <button type="button">Send Messages</button>
+
               </div>
+
             </div>
-            <div className="col-lg-4 mb-40">
-              <div className="td-contact-3-btn">
-                <button className="td-btn-rounded" type="button">
-                  Submit
-                  <i className="td-btn-circle-dot"></i>
-                </button>
-              </div>
+            <div className="col-lg-6 container mb-40">
+              <ContactMap/>
             </div>
           </div>
         </div>

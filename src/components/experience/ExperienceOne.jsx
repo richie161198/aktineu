@@ -22,7 +22,7 @@ export const ExperienceOne = () => {
   xmlns="http://www.w3.org/2000/svg"
 >
   <path
-    opacity="0.30" 
+    opacity="1.0" 
     d="M608.713 86.4H381.913V206.1C391.713 193.967 405.713 184.167 423.913 176.7C442.113 168.767 461.48 164.8 482.013 164.8C519.346 164.8 549.913 172.967 573.713 189.3C597.513 205.633 614.78 226.633 625.513 252.3C636.246 277.5 641.613 304.567 641.613 333.5C641.613 387.167 626.213 430.333 595.413 463C565.08 495.667 521.68 512 465.213 512C412.013 512 369.546 498.7 337.813 472.1C306.08 445.5 288.113 410.733 283.913 367.8H379.113C383.313 386.467 392.646 401.4 407.113 412.6C422.046 423.8 440.946 429.4 463.813 429.4C491.346 429.4 512.113 420.767 526.113 403.5C540.113 386.233 547.113 363.367 547.113 334.9C547.113 305.967 539.88 284.033 525.413 269.1C511.413 253.7 490.646 246 463.113 246C443.513 246 427.18 250.9 414.113 260.7C401.046 270.5 391.713 283.567 386.113 299.9H292.313V0.300049H608.713V86.4Z"
     fill="url(#paint0_linear_335_2111)"
     fillOpacity="0.5"
@@ -82,7 +82,7 @@ export const ExperienceOne = () => {
                 data-wow-delay=".3s"
                 data-wow-duration="1s"
               >
-                <h2 className="td-expreance-main-title text-dark">
+                <h2 className="td-expreance-main-title text-dark mb-10">
                   Crafted by Years of Dedication
                 </h2>
               </div>
@@ -93,10 +93,10 @@ export const ExperienceOne = () => {
                 data-wow-delay=".4s"
                 data-wow-duration="1s"
               >
-                <p className="text-black">
-                  We are constantly rethinking the future by creating the next
-                  generation of brands and services from a hybrid
-                  perspective. The <b>unthinkable</b> today becomes inevitable.
+                <p className="text-black">At Aktineu, we’re redefining finance — merging insight and innovation to power the future of wealth. What once seemed uncertain, now becomes inevitable with Aktineu.
+
+
+                  {/* At Aktineu, we’re reimagining the financial future by blending technology with deep financial expertise. From wealth building to smart investments, we craft next-gen solutions that empower individuals to take control, pivot confidently, and thrive—no matter where they are in their financial journey. */}
                 </p>
               </div>
             </div>

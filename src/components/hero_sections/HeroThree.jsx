@@ -19,17 +19,17 @@ export const HeroThree = () => {
                   <span
                     className="first wow fadeInRight"
                     data-wow-delay=".3s"
-                    data-wow-duration="1s"
+                    data-wow-duration="1.5s"
                   >
-                    Expert
+                    Curated investments
                   </span>
                   <br />
                   <b
-                    className="wow fadeInLeft"
+                    className="last wow fadeInLeft"
                     data-wow-delay=".3s"
                     data-wow-duration="1s"
                   >
-                    <span className="last">Advisors</span>
+                    <span className="last">Crafted for your tomorrow</span>
                   </b>
                 </h2>
                  {/* <div className="td-hero-text-slider mb-70">

@@ -23,6 +23,7 @@ export const ChooseOne = () => {
                     </h2>
                   </div>
                 </div>
+                <div></div>
                 <div
                   className="col-lg-3 col-md-4 col-sm-6 mb-25 wow fadeInUp"
                   data-wow-delay=".4s"
@@ -156,7 +157,7 @@ export const ChooseOne = () => {
                       </span>
                     </div>
                     <div className="td-chose-content">
-                      <h4 className="td-chose-title">Business Planning
+                      <h4 className="td-chose-title">Corporate Investment
                       </h4>
                       <p>
                         We help structure your finances and investments like a
@@ -165,7 +166,7 @@ export const ChooseOne = () => {
                     </div>
                   </div>
                 </div>
-                <div
+                {/* <div
                   className="col-lg-3 col-md-4 col-sm-6 mb-25 wow fadeInUp"
                   data-wow-delay=".7s"
                   data-wow-duration="1s"
@@ -231,7 +232,7 @@ export const ChooseOne = () => {
                       </p>
                     </div>
                   </div>
-                </div>
+                </div> */}
                 <div
                   className="col-lg-3 col-md-4 col-sm-6 mb-25 wow fadeInUp"
                   data-wow-delay=".8s"
@@ -279,7 +280,7 @@ export const ChooseOne = () => {
                     </div>
                   </div>
                 </div>
-                <div
+                {/* <div
                   className="col-lg-3 col-md-4 col-sm-6 mb-25 wow fadeInUp"
                   data-wow-delay=".9s"
                   data-wow-duration="1s"
@@ -325,7 +326,7 @@ export const ChooseOne = () => {
                       </p>
                     </div>
                   </div>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>

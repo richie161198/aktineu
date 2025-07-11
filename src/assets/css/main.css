@@ -4815,7 +4815,7 @@ input[type="color"] {
 }
 .td-hero-3-spacing {
   padding-top: 185px;
-  padding-bottom: 470px;
+  padding-bottom: 270px;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px),
   only screen and (min-width: 576px) and (max-width: 767px) {
@@ -4853,12 +4853,12 @@ input[type="color"] {
 }
 @media only screen and (min-width: 576px) and (max-width: 767px) {
   .td-hero-3-title {
-    font-size: 100px;
+    font-size: 80px;
   }
 }
 @media (max-width: 575px) {
   .td-hero-3-title {
-    font-size: 70px;
+    font-size: 50px;
   }
 }
 .td-hero-3-title .first {
@@ -6896,7 +6896,7 @@ input[type="color"] {
   }
 }
 .td-contact-4-transparent-title {
-  font-weight: 700;
+  font-weight: 00;
   font-size: 120px;
   line-height: 1;
   background-clip: text;
@@ -11883,7 +11883,7 @@ input[type="color"] {
   line-height: 1;
 }
 .td-team-details-content {
-  margin-left: 70px;
+  margin-left: 0px;
   margin-right: 70px;
 }
 @media only screen and (min-width: 1200px) and (max-width: 1399px),

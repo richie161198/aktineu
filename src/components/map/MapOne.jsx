@@ -10,13 +10,13 @@ export const MapOne = () => {
             <div className="td-map-count">
               <h2 className="td-map-count-title">
                 <span
-                  data-purecounter-duration="1"
-                  data-purecounter-end="54"
+                  data-purecounter-duration="1.5"
+                  data-purecounter-end="250"
                   className="purecounter"
                 >
                   0
                 </span>
-                ,000
+                +
               </h2>
             </div>
           </div>

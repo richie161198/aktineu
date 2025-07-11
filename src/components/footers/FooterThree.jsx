@@ -7,10 +7,10 @@ export const FooterThree = () => {
   return (
     <footer>
       <div className="td-footer-area td-black-bg-2 pt-120">
-        <div className="td-footer-3-top pb-50">
+        <div className="td-footer-3-top pb-30">
           <div className="container">
             <div className="row">
-              <div className="col-lg-6 mb-50">
+              <div className="col-lg-6 ">
                 <div className="td-footer-3-logo">
                   <img src={LOGO_WHITE} alt="logo" />
                   {/* <img src={LOGO_WHITE_Font} alt="" /> */}
@@ -19,9 +19,9 @@ export const FooterThree = () => {
               <div className="col-lg-6 mb-50">
                 <div className="td-footer-3-top-content">
                   <p>
-                    Looking for collaboration? Send an email to{" "}
+                    Looking for coonection? Send an email to{" "}
                     <a href="mailto:connect@aktineu.com">connect@aktineu.com</a>{" "}
-                    for valuable enquires and collaborations.
+                    for valuable enquires.
                   </p>
                 </div>
               </div>
@@ -34,7 +34,7 @@ export const FooterThree = () => {
               <div className="col-lg-6">
                 <div className="td-footer-3-widget mt-45 mb-50">
                   <h2 className="td-footer-3-widget-big-title">
-                    Let's work <span>together</span>
+                    Your Goal<br /><span>Our Strategy</span>
                   </h2>
                 </div>
               </div>
@@ -45,8 +45,9 @@ export const FooterThree = () => {
                       <h2 className="td-footer-3-widget-title mb-20">Menu</h2>
                       <ul>
                         <li>
-                          <a href="#">Company</a>
                           <a href="#">Careers</a>
+                          <a href="#">Terms & Condition</a>
+                          
                           {/* <a href="#">Press Media</a> */}
                           {/* <a href="#">Our Blog</a> */}
                           <a href="#">Privacy Policy</a>

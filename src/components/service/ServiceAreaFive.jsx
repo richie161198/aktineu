@@ -3,8 +3,8 @@ import { Link } from "react-router-dom";
 
 export const ServiceAreaFive = () => {
   return (
-    <div className="td-service-area pt-140 pb-140">
-      <div className="container">
+    <div className="td-service-area pt-140 pb-100">
+      <div className="pl-150 pr-150">
         <div className="row">
           <div className="col-lg-12">
             <div className="td-service-5-title-wrap  mb-70 ">
@@ -15,7 +15,7 @@ export const ServiceAreaFive = () => {
                   More Than Money: Holistic Wealth Management in Chennai
                 </h3>
                 <p>
-                  {" "}
+                  
                   Founded to transform aspirations into reality, Aktineu
                   empowers you to reach a ₹10 Crore portfolio and beyond. Over
                   the past two years, we’ve guided hundreds of clients to:
@@ -24,7 +24,7 @@ export const ServiceAreaFive = () => {
             </div>
           </div>
         </div>
-        <div className="row gx-0 row-cols-xl-5 row-cols-lg-3 text-center justify-content-between align-items-center">
+        <div className="row row-cols-xl-5 row-cols-lg-3 text-center justify-content-between align-items-center">
           <div className="col sm-flex">
             <div
               className="td-service-5-wrap  mb-50 wow fadeInUp"
@@ -70,7 +70,7 @@ export const ServiceAreaFive = () => {
                   </svg>
                 </span>
               </div>
-              <div className="td-service-5-content">
+              <div className="td-service-5-content text-justify ">
                 <h2 className="td-service-5-title mb-20">
                   Buy your dream home
                 </h2>

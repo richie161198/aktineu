@@ -18,6 +18,13 @@ import { TestimonialFour } from "../../components/testimonials/TestimonialFour";
 import { ServiceAreaFive } from "../../components/service/ServiceAreaFive";
 import { CtaOne } from "../../components/cta/CtaOne";
 import { AboutTwo } from "../../components/about/AboutTwo";
+import { TeamThree } from "../../components/teams/TeamThree";
+import { TeamMember } from "../../components/teams/TeamMember";
+import { TeamDetails } from "../team/TeamDetails";
+import { ContactOne } from "../../components/contact/ContactOne";
+import { ContactThree } from "../../components/contact/ContactThree";
+import { ContactMap } from "../../components/contact/ContactMap";
+import { TeamDetails2 } from "../team/TeamDetails2";
 // import { HeroFour } from "../../components/hero_sections/HeroFour";
 
 export const HomeThree = () => {
@@ -46,6 +53,9 @@ export const HomeThree = () => {
 
       {/* video */}
       <VideoAreaTwo />
+      <TeamDetails />
+      
+      <TeamDetails2/>
 
       {/* experience */}
       <ExperienceOne />
@@ -77,8 +87,10 @@ export const HomeThree = () => {
 
       {/* contact */}
         <div id="contactus">
-      
-      <ContactTwo />
+     
+        <ContactTwo />
+              {/* <ContactOne /> */}
+        
       </div>
     </Layout>
   );
