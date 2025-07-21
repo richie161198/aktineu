@@ -12,7 +12,7 @@ export const TeamDetails2 = () => {
             <div className="td-team-details-content mb-30">
               <h3 className="td-team-details-title">Yuvaraj Vishwanath</h3>
               <span className="td-team-details-subtitle mb-35">
-                Managing Partner,  Aktineu LLP
+                Managing Partner, Aktineu LLP
               </span>
               <div className="td-team-details-social mb-35">
                 {/* <span className="mb-10">
@@ -92,32 +92,33 @@ export const TeamDetails2 = () => {
                 </h3>
                 <p>
                   From an academic background in Computer Applications to
-                  managing 400+ clients and ₹100+ crores in assets, Yuvaraj
-                  Vishwanath’s journey is defined by one word: intentionality.
-                  His foray into finance wasn’t accidental. Fueled by a genuine
-                  passion for financial markets and a desire to bring structure
-                  and clarity to personal finance, Yuvaraj made a deliberate
-                  career shift. Today, he leads with a mission to simplify
-                  wealth-building for individuals and help them achieve true
-                  financial independence.
+                  managing 400+ clients, Yuvaraj Vishwanath’s journey is defined
+                  by one word: intentionality. His foray into finance wasn’t
+                  accidental. Fueled by a genuine passion for financial markets
+                  and a desire to bring structure and clarity to personal
+                  finance, Yuvaraj made a deliberate career shift. Today, he
+                  leads with a mission to simplify wealth-building for
+                  individuals and help them achieve true financial independence.
                 </p>
                 {/* <br /> */}
-                  {/* <h4 className="td-team-details-biography-title text-bold">
+                {/* <h4 className="td-team-details-biography-title text-bold">
             Philosophy & Vision
           </h4> */}
-                 <div className="td-team-details-education text-center text-bold mb-30 mt-30">
+                <div className="td-team-details-education text-center text-bold mb-30 mt-30">
                   <h4 className="td-team-details-biography-title mb-15">
                     <b>
-                      “Wealth isn’t about luxury. It’s about freedom to make bold
-            decisions, take a sabbatical, switch careers, or say yes to what
-            truly matters.”
+                      “Wealth isn’t about luxury. It’s about freedom to make
+                      bold decisions, take a sabbatical, switch careers, or say
+                      yes to what truly matters.”
                     </b>
                   </h4>
                 </div>
-       
                 As the Managing Partner at Aktineu, Yuvaraj’s day-to-day
                 involves much more than transactions. He is actively engaged in:
-                <li className="mt-10">Deep fund research and market analysis</li>
+                <li className="mt-10">
+                  Peer discussions to form neutral perspectives (he likens to{" "}
+                  <b>“independent directorship”</b>)
+                </li>
                 <li>
                   Curating portfolios aligned with each client’s long-term
                   vision
@@ -127,7 +128,6 @@ export const TeamDetails2 = () => {
                   surgical precision
                 </li>
                 <br />
-             
               </div>
             </div>
           </div>
@@ -148,19 +148,28 @@ export const TeamDetails2 = () => {
             truly matters.”
           </h4>
         </div> */}
-         <div className="td-team-details-biography ">
-        <p>
-                  But what truly sets him apart is how clients experience him,
-                  not just as an advisor, but as someone they can trust like
-                  family. One client, in fact, introduced him to their in-laws
-                  at a wedding, calling him “one of the reasons this moment was
-                  even possible.” Yuvaraj’s approach centers around discipline
-                  over speculation, process over product, and goals over noise.
-                  Whether it’s helping a 30-year-old plan for early retirement
-                  or supporting a 50-year-old in funding their child’s education
-                  abroad, each portfolio is tailored, and every decision is
-                  backed by logic and empathy.
-                </p>
+        <div className="td-team-details-biography ">
+          <p>
+            But what truly sets him apart is how clients experience him, not
+            just as an advisor, but as someone they can trust like family. One
+            client, in fact, introduced him to their in-laws at a wedding,
+            calling him “one of the reasons this moment was even possible.”
+            Yuvaraj’s approach centers around discipline over speculation,
+            process over product, and goals over noise. Whether it’s helping a
+            30-year-old plan for early retirement or supporting a 50-year-old in
+            funding their child’s education abroad, each portfolio is tailored,
+            and every decision is backed by logic and empathy.
+          </p>
+          <p>
+            Yuvaraj believes most investors fail not because of bad markets, but
+            because they deviate mid-journey or fall prey to hype. His vision is
+            to correct that course to guide individuals from confusion to
+            clarity, and from short-term thinking to ₹10 Crore in long-term,
+            compounding-led wealth. With a strong reading habit, constant
+            upskilling, and an unshakable client-first mindset, Yuvaraj is
+            building a firm and a future where smart investing is not just for
+            the wealthy but for the wise.
+          </p>
         </div>
       </div>
     </div>

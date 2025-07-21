@@ -7,7 +7,7 @@ import thumbImage4 from "../../assets/img/expreance/04.jpg";
 
 export const ExperienceOne = () => {
   return (
-    <div className="td-expreance-area">
+    <div className="td-expreance-area pt-100">
       <div className="td-expreance-top">
         <div className="container">
           <div className="row">
@@ -71,10 +71,12 @@ export const ExperienceOne = () => {
       </div>
 
       <div
-        className="td-expreance-main bg-position z-index-11 pt-135 pb-140"
+        className="td-expreance-main bg-position z-index-11 pt-135 "
         data-background={bgImage}
+        
       >
-        <div className="container">
+        <div className="container  "   style={{ marginTop: "100px" }} // Add this
+>
           <div className="row mb-35">
             <div className="col-lg-6 mb-30">
               <div
@@ -101,6 +103,13 @@ export const ExperienceOne = () => {
               </div>
             </div>
           </div>
+
+             </div>
+      </div>
+    </div>
+  );
+};
+
 
           {/* <div className="row">
             <div
@@ -391,8 +400,4 @@ export const ExperienceOne = () => {
               </div>
             </div> 
           </div> */}
-        </div>
-      </div>
-    </div>
-  );
-};
+     

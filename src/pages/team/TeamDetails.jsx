@@ -117,25 +117,27 @@ export const TeamDetails = () => {
                 He thrives in the analytical depths of fund fact sheets, client
                 profiling, and tactical rebalancing. His typical day spans:
                 <li className="mt-10">
-                  Managing non-financial transactions with razor-sharp
-                  compliance
+                  Deep fund research and market analysis
                 </li>
                 <li>Client strategy sessions</li>
-                <li>
-                  Peer discussions to form neutral perspectives a practice he
-                  likens to independent directorship
-                </li>
               </div>
             </div>
           </div>
         </div>
         <div className="td-team-details-biography ">
           <p>
-            Shandhanu believes that the market constantly offers opportunities,
-            but without proper risk management and strategic planning, even the
-            best products can underdeliver. His work is centered on building
-            investor confidence, focusing on suitability, and ensuring the
-            longevity of wealth across generations.
+            Shandhanu’s mission is clear: to manage investor portfolios with
+            precision, educate clients on why decisions are made, and ultimately
+            help them build toward ₹10 Crore and beyond.
+          </p>
+          <p>
+            In the next 5 years, Shandhanu envisions helping 300+ families
+            achieve the milestone of ₹10 Cr wealth. Through smarter tools,
+            deeper client education, and a more robust digital presence, he aims
+            to make strategic investing more accessible and sustainable. At his
+            core, Shandhanu is not just a finance professional. He’s a builder
+            of portfolios, of trust, and of a new age of Indian investors who no
+            longer chase the market but outgrow it.
           </p>
         </div>
       </div>

@@ -10,12 +10,11 @@ export const ServiceAreaFive = () => {
             <div className="td-service-5-title-wrap  mb-70 ">
               <h2 className="td-section-title-pre mb-30">About Us</h2>
               {/* <h2 className="td-section-title">Holistic Wealth Management in Chennai</h2> */}
- <div className="">
+              <div className="">
                 <h3 className=" mb-40">
                   More Than Money: Holistic Wealth Management in Chennai
                 </h3>
                 <p>
-                  
                   Founded to transform aspirations into reality, Aktineu
                   empowers you to reach a ₹10 Crore portfolio and beyond. Over
                   the past two years, we’ve guided hundreds of clients to:
@@ -74,7 +73,10 @@ export const ServiceAreaFive = () => {
                 <h2 className="td-service-5-title mb-20">
                   Buy your dream home
                 </h2>
-                <p>Plan and save systematically to purchase your ideal home without the stress of long-term EMIs.</p>
+                <p>
+                  Plan and save systematically to purchase your ideal home
+                  without the stress of long-term EMIs.
+                </p>
               </div>
             </div>
           </div>
@@ -213,10 +215,13 @@ export const ServiceAreaFive = () => {
                 </span>
               </div>
               <div className="td-service-5-content">
-                <h2 className="td-service-5-title mb-20">Live life on your terms
-
+                <h2 className="td-service-5-title mb-20">
+                  Live life on your terms
                 </h2>
-                <p>Design a roadmap to retire early and live off passive income with smart, tax-efficient investments.</p>
+                <p>
+                  Design a roadmap to retire early and live off passive income
+                  with smart, tax-efficient investments.
+                </p>
               </div>
             </div>
           </div>
@@ -227,55 +232,58 @@ export const ServiceAreaFive = () => {
               data-wow-duration="1s"
             >
               <div className="td-service-5-icon mb-50">
-               <div className="td-cta-icon">
-                    <span>
-                      <svg
-                        width="60"
-                        height="60"
-                        viewBox="0 0 80 80"
-                        fill="none"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <g clipPath="url(#clip0_338_12638)">
-                          <path
-                            d="M68.4525 42.7063H62.2656C62.8963 44.4329 63.2408 46.2961 63.2408 48.2382V71.621C63.2408 72.4307 63.0998 73.2079 62.8434 73.9307H73.0717C76.8925 73.9307 80.0008 70.8223 80.0008 67.0017V54.2546C80.001 47.8869 74.8203 42.7063 68.4525 42.7063Z"
-                            fill="#20282D"
-                          />
-                          <path
-                            d="M16.7602 48.2384C16.7602 46.2962 17.1047 44.4331 17.7353 42.7065H11.5485C5.18063 42.7065 0 47.8872 0 54.255V67.0021C0 70.8227 3.10829 73.9311 6.92908 73.9311H17.1575C16.9011 73.208 16.7602 72.431 16.7602 71.6213V48.2384Z"
-                            fill="#20282D"
-                          />
-                          <path
-                            d="M47.0715 36.6899H32.9274C26.5595 36.6899 21.3789 41.8706 21.3789 48.2384V71.6213C21.3789 72.8967 22.413 73.931 23.6886 73.931H56.3102C57.5859 73.931 58.6199 72.8969 58.6199 71.6213V48.2384C58.6199 41.8706 53.4393 36.6899 47.0715 36.6899Z"
-                            fill="#20282D"
-                          />
-                          <path
-                            d="M39.9998 6.06885C32.3417 6.06885 26.1113 12.2992 26.1113 19.9575C26.1113 25.152 28.9784 29.6887 33.2124 32.0706C35.2207 33.2003 37.536 33.8459 39.9998 33.8459C42.4635 33.8459 44.7789 33.2003 46.7872 32.0706C51.0214 29.6887 53.8883 25.1519 53.8883 19.9575C53.8883 12.2993 47.6579 6.06885 39.9998 6.06885Z"
-                            fill="#9CA9B2"
-                          />
-                          <path
-                            d="M15.6113 19.0139C9.88399 19.0139 5.22461 23.6733 5.22461 29.4007C5.22461 35.128 9.88399 39.7874 15.6113 39.7874C17.0642 39.7874 18.4476 39.4865 19.7043 38.9455C21.8771 38.01 23.6687 36.3541 24.7773 34.2799C25.5554 32.8241 25.9981 31.1633 25.9981 29.4007C25.9981 23.6735 21.3387 19.0139 15.6113 19.0139Z"
-                            fill="#9CA9B2"
-                          />
-                          <path
-                            d="M64.3887 19.0139C58.6613 19.0139 54.002 23.6733 54.002 29.4007C54.002 31.1635 54.4446 32.8243 55.2227 34.2799C56.3313 36.3543 58.1229 38.0102 60.2957 38.9455C61.5524 39.4865 62.9359 39.7874 64.3887 39.7874C70.116 39.7874 74.7754 35.128 74.7754 29.4007C74.7754 23.6733 70.116 19.0139 64.3887 19.0139Z"
-                            fill="#9CA9B2"
-                          />
-                        </g>
-                        <defs>
-                          <clipPath id="clip0_338_12638">
-                            <rect width="80" height="80" fill="white" />
-                          </clipPath>
-                        </defs>
-                      </svg>
-                    </span>
-                  </div>
+                <div className="td-cta-icon">
+                  <span>
+                    <svg
+                      width="60"
+                      height="60"
+                      viewBox="0 0 80 80"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <g clipPath="url(#clip0_338_12638)">
+                        <path
+                          d="M68.4525 42.7063H62.2656C62.8963 44.4329 63.2408 46.2961 63.2408 48.2382V71.621C63.2408 72.4307 63.0998 73.2079 62.8434 73.9307H73.0717C76.8925 73.9307 80.0008 70.8223 80.0008 67.0017V54.2546C80.001 47.8869 74.8203 42.7063 68.4525 42.7063Z"
+                          fill="#20282D"
+                        />
+                        <path
+                          d="M16.7602 48.2384C16.7602 46.2962 17.1047 44.4331 17.7353 42.7065H11.5485C5.18063 42.7065 0 47.8872 0 54.255V67.0021C0 70.8227 3.10829 73.9311 6.92908 73.9311H17.1575C16.9011 73.208 16.7602 72.431 16.7602 71.6213V48.2384Z"
+                          fill="#20282D"
+                        />
+                        <path
+                          d="M47.0715 36.6899H32.9274C26.5595 36.6899 21.3789 41.8706 21.3789 48.2384V71.6213C21.3789 72.8967 22.413 73.931 23.6886 73.931H56.3102C57.5859 73.931 58.6199 72.8969 58.6199 71.6213V48.2384C58.6199 41.8706 53.4393 36.6899 47.0715 36.6899Z"
+                          fill="#20282D"
+                        />
+                        <path
+                          d="M39.9998 6.06885C32.3417 6.06885 26.1113 12.2992 26.1113 19.9575C26.1113 25.152 28.9784 29.6887 33.2124 32.0706C35.2207 33.2003 37.536 33.8459 39.9998 33.8459C42.4635 33.8459 44.7789 33.2003 46.7872 32.0706C51.0214 29.6887 53.8883 25.1519 53.8883 19.9575C53.8883 12.2993 47.6579 6.06885 39.9998 6.06885Z"
+                          fill="#9CA9B2"
+                        />
+                        <path
+                          d="M15.6113 19.0139C9.88399 19.0139 5.22461 23.6733 5.22461 29.4007C5.22461 35.128 9.88399 39.7874 15.6113 39.7874C17.0642 39.7874 18.4476 39.4865 19.7043 38.9455C21.8771 38.01 23.6687 36.3541 24.7773 34.2799C25.5554 32.8241 25.9981 31.1633 25.9981 29.4007C25.9981 23.6735 21.3387 19.0139 15.6113 19.0139Z"
+                          fill="#9CA9B2"
+                        />
+                        <path
+                          d="M64.3887 19.0139C58.6613 19.0139 54.002 23.6733 54.002 29.4007C54.002 31.1635 54.4446 32.8243 55.2227 34.2799C56.3313 36.3543 58.1229 38.0102 60.2957 38.9455C61.5524 39.4865 62.9359 39.7874 64.3887 39.7874C70.116 39.7874 74.7754 35.128 74.7754 29.4007C74.7754 23.6733 70.116 19.0139 64.3887 19.0139Z"
+                          fill="#9CA9B2"
+                        />
+                      </g>
+                      <defs>
+                        <clipPath id="clip0_338_12638">
+                          <rect width="80" height="80" fill="white" />
+                        </clipPath>
+                      </defs>
+                    </svg>
+                  </span>
+                </div>
               </div>
               <div className="td-service-5-content">
-                <h2 className="td-service-5-title mb-20">Secure your family's dreams
-
+                <h2 className="td-service-5-title mb-20">
+                  Secure your family's dreams
                 </h2>
-                <p>Prepare for your children's education, weddings, and future with multi-goal aligned investments.</p>
+                <p>
+                  Prepare for your children's education, weddings, and future
+                  with multi-goal aligned investments.
+                </p>
               </div>
             </div>
           </div>
@@ -286,45 +294,48 @@ export const ServiceAreaFive = () => {
               data-wow-duration="1s"
             >
               <div className="td-chose-icon mb-40">
-                      <span>
-                        <svg
-                          width="60"
-                          height="60"
-                          viewBox="0 0 60 60"
-                          fill="none"
-                          xmlns="http://www.w3.org/2000/svg"
-                        >
-                          <g clipPath="url(#clip0_335_2976)">
-                            <path
-                              d="M12.7448 60.0002C12.4036 58.6876 12.6437 57.2781 13.4454 56.1357L21.9884 43.9617L17.1688 37.2771C16.935 36.9527 16.5767 36.7905 16.2183 36.7905C15.86 36.7905 15.5016 36.9527 15.2677 37.2771L0.223387 58.143C-0.33548 58.9181 0.218465 60.0002 1.17401 60.0002H12.7448Z"
-                              fill="#20282D"
-                            />
-                            <path
-                              d="M39.8125 24.8849V18.75H54.4609C55.0993 18.75 55.6875 18.4038 55.9975 17.8459C56.3075 17.288 56.2906 16.6056 55.9534 16.0636L52.8855 11.1328L55.9534 6.20203C56.2907 5.66004 56.3076 4.97777 55.9975 4.41973C55.6874 3.86168 55.0994 3.51563 54.4609 3.51563H39.8125V1.75781C39.8125 0.787031 39.0255 0 38.0547 0C37.0839 0 36.2969 0.787031 36.2969 1.75781V24.8849C37.3015 23.7818 38.7846 23.7596 39.8125 24.8849Z"
-                              fill="#B3BEC5"
-                            />
-                            <path
-                              d="M47.6909 40.9189L43.4947 44.8283C43.1572 45.1427 42.7268 45.3 42.2964 45.3C41.866 45.3 41.4357 45.1427 41.0982 44.8283L38.0546 41.9929L35.0116 44.8282C34.3365 45.4573 33.2901 45.4573 32.615 44.8282L28.4193 40.9189L16.324 58.1551C15.7791 58.9317 16.3346 60.0001 17.2833 60.0001H31.2633H58.8269C59.7756 60.0001 60.3311 58.9317 59.7862 58.1551L47.6909 40.9189Z"
-                              fill="#20282D"
-                            />
-                            <path
-                              d="M33.8134 41.1393L36.8563 38.3039C37.5313 37.675 38.5777 37.6749 39.2528 38.3038L42.2965 41.1394L45.6825 38.0566L39.0144 28.5544C38.7811 28.222 38.4182 28.0557 38.0551 28.0557C37.6922 28.0557 37.3291 28.222 37.0958 28.5544L30.4277 38.0566L33.8134 41.1393Z"
-                              fill="#20282D"
-                            />
-                          </g>
-                          <defs>
-                            <clipPath id="clip0_335_2976">
-                              <rect width="60" height="60" fill="white" />
-                            </clipPath>
-                          </defs>
-                        </svg>
-                      </span>
-                    </div>
+                <span>
+                  <svg
+                    width="60"
+                    height="60"
+                    viewBox="0 0 60 60"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <g clipPath="url(#clip0_335_2976)">
+                      <path
+                        d="M12.7448 60.0002C12.4036 58.6876 12.6437 57.2781 13.4454 56.1357L21.9884 43.9617L17.1688 37.2771C16.935 36.9527 16.5767 36.7905 16.2183 36.7905C15.86 36.7905 15.5016 36.9527 15.2677 37.2771L0.223387 58.143C-0.33548 58.9181 0.218465 60.0002 1.17401 60.0002H12.7448Z"
+                        fill="#20282D"
+                      />
+                      <path
+                        d="M39.8125 24.8849V18.75H54.4609C55.0993 18.75 55.6875 18.4038 55.9975 17.8459C56.3075 17.288 56.2906 16.6056 55.9534 16.0636L52.8855 11.1328L55.9534 6.20203C56.2907 5.66004 56.3076 4.97777 55.9975 4.41973C55.6874 3.86168 55.0994 3.51563 54.4609 3.51563H39.8125V1.75781C39.8125 0.787031 39.0255 0 38.0547 0C37.0839 0 36.2969 0.787031 36.2969 1.75781V24.8849C37.3015 23.7818 38.7846 23.7596 39.8125 24.8849Z"
+                        fill="#B3BEC5"
+                      />
+                      <path
+                        d="M47.6909 40.9189L43.4947 44.8283C43.1572 45.1427 42.7268 45.3 42.2964 45.3C41.866 45.3 41.4357 45.1427 41.0982 44.8283L38.0546 41.9929L35.0116 44.8282C34.3365 45.4573 33.2901 45.4573 32.615 44.8282L28.4193 40.9189L16.324 58.1551C15.7791 58.9317 16.3346 60.0001 17.2833 60.0001H31.2633H58.8269C59.7756 60.0001 60.3311 58.9317 59.7862 58.1551L47.6909 40.9189Z"
+                        fill="#20282D"
+                      />
+                      <path
+                        d="M33.8134 41.1393L36.8563 38.3039C37.5313 37.675 38.5777 37.6749 39.2528 38.3038L42.2965 41.1394L45.6825 38.0566L39.0144 28.5544C38.7811 28.222 38.4182 28.0557 38.0551 28.0557C37.6922 28.0557 37.3291 28.222 37.0958 28.5544L30.4277 38.0566L33.8134 41.1393Z"
+                        fill="#20282D"
+                      />
+                    </g>
+                    <defs>
+                      <clipPath id="clip0_335_2976">
+                        <rect width="60" height="60" fill="white" />
+                      </clipPath>
+                    </defs>
+                  </svg>
+                </span>
+              </div>
               <div className="td-service-5-content">
                 <h2 className="td-service-5-title mb-20">
                   Pivot careers to follow their passion
                 </h2>
-                <p>Break free from the 9-to-5 grind—pursue your passion with financial freedom and zero regrets.</p>
+                <p>
+                  Break free from the 9-to-5 grind—pursue your passion with
+                  financial freedom and zero regrets.
+                </p>
               </div>
             </div>
           </div>
@@ -333,7 +344,8 @@ export const ServiceAreaFive = () => {
           <div className="col-12">
             <div className="td-service-5-bottom-para">
               <p className="p-10">
-                Our mission is simple: help you build lasting wealth so you can pursue life on your terms.
+                Our mission is simple: help you build lasting wealth so you can
+                pursue life on your terms.
               </p>
             </div>
           </div>

@@ -1,7 +1,7 @@
-import serviceImg01 from "../../assets/img/service/service3/01.jpg";
-import serviceImg02 from "../../assets/img/service/service3/02.jpg";
-import serviceImg03 from "../../assets/img/service/service3/03.jpg";
-import serviceImg04 from "../../assets/img/service/service3/04.jpg";
+import serviceImg01 from "../../assets/img/service/service3/1.jpg";
+import serviceImg02 from "../../assets/img/service/service3/2.jpg";
+import serviceImg03 from "../../assets/img/service/service3/3.jpg";
+import serviceImg04 from "../../assets/img/service/service3/4.jpg";
 
 export const ServiceAreaThree = () => {
   const serviceItems = [

@@ -53,7 +53,7 @@ export const VideoAreaTwo = () => {
         </div>
       </div>
 
-      <div className="td-video-2-bottom">
+      <div className="td-video-2-bottom ">
         <div className="container container-1730">
           <div className="row">
             <div className="col-12">
@@ -67,7 +67,7 @@ export const VideoAreaTwo = () => {
         </div>
       </div>
 
-      <div className="td-video-3-contact td-black-bg-2">
+      <div className="td-video-3-contact  td-black-bg-2" >
         <div
           className="td-video-3-contact-header bg-position"
           style={{ backgroundImage: `url(${CONTACT})` }}
