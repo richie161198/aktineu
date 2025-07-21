@@ -25,13 +25,17 @@ import { ContactOne } from "../../components/contact/ContactOne";
 import { ContactThree } from "../../components/contact/ContactThree";
 import { ContactMap } from "../../components/contact/ContactMap";
 import { TeamDetails2 } from "../team/TeamDetails2";
+import { HeaderOne } from "../../components/headers/HeaderOne";
+import { HeaderTwo } from "../../components/headers/HeaderTwo";
+import { HeroTwo } from "../../components/hero_sections/HeroTwo";
 // import { HeroFour } from "../../components/hero_sections/HeroFour";
 
 export const HomeThree = () => {
   return (
     <Layout header={3} footer={3}>
       {/* hero */}
-      <HeroThree />
+      {/* <HeroThree /> */}
+      <HeroTwo />
       {/* <HeroFour/> */}
    
             

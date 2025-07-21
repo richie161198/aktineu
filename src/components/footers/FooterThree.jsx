@@ -34,7 +34,9 @@ export const FooterThree = () => {
               <div className="col-lg-6">
                 <div className="td-footer-3-widget mt-45 mb-50">
                   <h2 className="td-footer-3-widget-big-title">
-                    Your Goal<br /><span>Our Strategy</span>
+                    Your Goal
+                    <br />
+                    <span>Our Strategy</span>
                   </h2>
                 </div>
               </div>
@@ -45,16 +47,20 @@ export const FooterThree = () => {
                       <h2 className="td-footer-3-widget-title mb-20">Menu</h2>
                       <ul>
                         <li>
-                          <a href="#">Careers</a>
-                          <a href="#">Terms & Condition</a>
-                          
+                          <Link to="/terms&condition">Terms & Condition</Link>
+                          <Link to="/privacypolicy">Privacy Policy</Link>
+
+                          {/* <a href="#">Careers</a> */}
+                          {/* <a href="#"></a> */}
+
                           {/* <a href="#">Press Media</a> */}
                           {/* <a href="#">Our Blog</a> */}
-                          <a href="#">Privacy Policy</a>
+                          {/* <a href="#">Privacy Policy</a> */}
                         </li>
                       </ul>
                     </div>
                   </div>
+
                   <div className="col-xl-6 col-lg-7 col-md-6 col-sm-7 mb-40">
                     <div className="td-footer-3-widget mb-40">
                       <h2 className="td-footer-3-widget-title mb-20">
@@ -102,9 +108,38 @@ export const FooterThree = () => {
                         </p>
                       </div>
                     </div>
+
                     <div className="col-lg-6 mb-15">
                       <div className="td-footer-3-bottom-social text-right p-20">
                         <ul className="">
+                          <li>
+                            <div className="">
+                              <a
+                                href="https://play.google.com/store/apps/details?id=com.aktineu.app"
+                                target="_blank"
+                                className=""
+                              >
+                                <img
+                                  src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg"
+                                  alt="Get it on Google Play"
+                                  height="40"
+                                />
+                              </a>
+
+                              <a
+                                href="https://apps.apple.com/in/app/aktineu/id6740485980"
+                                target="_blank"
+                                className="pl-20 pr-40"
+                              >
+                                <img
+                                  src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg"
+                                  alt="Download on the App Store"
+                                  height="40"
+                                />
+                              </a>
+                            </div>
+                          </li>
+
                           <li>
                             <a href="https://www.facebook.com/aktineullp">
                               <i className="fa-brands fa-facebook-f fa-2x pr-10"></i>
@@ -120,7 +155,6 @@ export const FooterThree = () => {
                               </svg>
                             </a>
                           </li> */}
-                      
 
                           <li>
                             <a href="https://www.youtube.com/@aktineullp">
@@ -136,7 +170,7 @@ export const FooterThree = () => {
                               <i className="fa-brands fa-linkedin-in fa-2x pr-10"></i>
                             </a>
                           </li>
-                              <li>
+                          <li>
                             <a
                               href="https://www.instagram.com/aktineu.llp/"
                               target="_blank"

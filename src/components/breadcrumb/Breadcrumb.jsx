@@ -15,7 +15,7 @@ export const Breadcrumb = ({ title, subtitle, bottomText }) => {
               <h3 className="td-breadcrumb-title">{title}</h3>
             </div>
           </div>
-          <div className="col-lg-6">
+          {/* <div className="col-lg-6">
             <div className="td-breadcrumb-list float-right mb-20">
               <span>
                 <Link to="/">Pages</Link>
@@ -23,14 +23,14 @@ export const Breadcrumb = ({ title, subtitle, bottomText }) => {
               <span className="dvdr">/</span>
               <span className="page">{subtitle}</span>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
       <div
         className="td-breadcrumb-big-text pt-60"
         data-parallax='{"x": -100, "smoothness": 10}'
       >
-        <h2>{bottomText || "Aktineu.Business"}</h2>
+        <h2>{bottomText || "Aktineu.Investment"}</h2>
       </div>
     </div>
   );

@@ -5,7 +5,7 @@ export const ServiceSidebar = () => {
     <>
       <div className="td-service-details-right ml-50">
         {/* our services */}
-        <div className="td-service-widget-item mb-30">
+        {/* <div className="td-service-widget-item mb-30">
           <h3 className="td-service-widget-title">Our Services</h3>
           <ul>
             <li>
@@ -45,10 +45,10 @@ export const ServiceSidebar = () => {
               </a>
             </li>
           </ul>
-        </div>
+        </div> */}
 
         {/* links */}
-        <div className="td-service-widget-pdf mb-30">
+        {/* <div className="td-service-widget-pdf mb-30">
           <ul>
             <li>
               <a href="#">
@@ -69,10 +69,10 @@ export const ServiceSidebar = () => {
               </span>
             </li>
           </ul>
-        </div>
+        </div> */}
 
         {/* contact form */}
-        <div className="td-service-widget-item mb-30">
+        {/* <div className="td-service-widget-item mb-30">
           <h3 className="td-service-widget-title td-service-widget-title-2">
             How can we help you?
           </h3>
@@ -115,7 +115,7 @@ export const ServiceSidebar = () => {
               </button>
             </div>
           </form>
-        </div>
+        </div> */}
       </div>
     </>
   );

@@ -1,5 +1,5 @@
 import React from "react";
-import BG from "../../assets/img/hero/bg-2.jpg";
+import BG from "../../assets/img/hero/hero2/bg5.jpg";
 import { Link } from "react-router-dom";
 
 export const HeroTwo = () => {
@@ -14,14 +14,20 @@ export const HeroTwo = () => {
             <div className="col-12">
               <div className="td-hero-2-content">
                 <h2 className="td-hero-2-title mb-65">
-                  Expertise advice for
+                  Curated investments
                   <br />
-                  your <span>business</span> plans with
+                  Crafted for <span>your </span>
                   <br />
-                  guaranteed <span>success.</span>
+                  <span>tomorrow.</span>
                 </h2>
                 <div className="td-hero-2-btn">
-                  <Link className="td-left-right" to="/contact">
+                  {/* <Link className="td-left-right" to="https://aktineu.investwell.app/app/#/login"> */}
+                  <a
+                    className="td-left-right"
+                    href="https://aktineu.investwell.app/app/#/login"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     <span className="td-arrow-angle ml-10">
                       <svg
                         className="td-arrow-svg-top-right td-bg-none"
@@ -47,7 +53,9 @@ export const HeroTwo = () => {
                         />
                       </svg>
                     </span>
-                  </Link>
+                  </a>
+              
+                  {/* </Link> */}
                 </div>
               </div>
             </div>
@@ -56,7 +64,7 @@ export const HeroTwo = () => {
       </div>
       <div className="td-hero-2-navebar">
         <div className="container">
-          <div className="row gx-0">
+          {/* <div className="row gx-0">
             <div className="col-lg-3 col-md-6 col-sm-6">
               <div className="td-hero-2-navebar-single">
                 <span>Our Mission</span>
@@ -89,7 +97,7 @@ export const HeroTwo = () => {
                 </a>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>
