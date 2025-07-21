@@ -5,20 +5,20 @@ import { Link } from "react-router-dom";
 export const HeroTwo = () => {
   return (
     <div
-      className="td-hero-area bg-position"
-      style={{ backgroundImage: `url(${BG})` }}
+      className="td-hero-area bg-position "
+      style={{ backgroundImage: `url(${BG})`, height: "100vh" }}
     >
       <div className="td-hero-2-spacing">
-        <div className="container">
-          <div className="row">
+        <div className="pl-100 pt-30">
+          <div className="">
             <div className="col-12">
               <div className="td-hero-2-content">
                 <h2 className="td-hero-2-title mb-65">
-                  Curated investments
+                  Curated <span>Investments </span>
                   <br />
-                  Crafted for <span>your </span>
+                  Crafted <span>for your tomorrow.</span>
                   <br />
-                  <span>tomorrow.</span>
+                  <span> </span>
                 </h2>
                 <div className="td-hero-2-btn">
                   {/* <Link className="td-left-right" to="https://aktineu.investwell.app/app/#/login"> */}
@@ -54,7 +54,7 @@ export const HeroTwo = () => {
                       </svg>
                     </span>
                   </a>
-              
+
                   {/* </Link> */}
                 </div>
               </div>

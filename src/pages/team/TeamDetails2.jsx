@@ -10,7 +10,7 @@ export const TeamDetails2 = () => {
         <div className="row">
           <div className="col-lg-7">
             <div className="td-team-details-content mb-30">
-              <h3 className="td-team-details-title">Yuvaraj Vishwanath</h3>
+              <h3 className="td-team-details-title">Yuvaraj Viswanathan</h3>
               <span className="td-team-details-subtitle mb-35">
                 Managing Partner, Aktineu LLP
               </span>
@@ -92,7 +92,7 @@ export const TeamDetails2 = () => {
                 </h3>
                 <p>
                   From an academic background in Computer Applications to
-                  managing 400+ clients, Yuvaraj Vishwanath’s journey is defined
+                  managing 400+ clients, Yuvaraj Viswanathan’s journey is defined
                   by one word: intentionality. His foray into finance wasn’t
                   accidental. Fueled by a genuine passion for financial markets
                   and a desire to bring structure and clarity to personal

@@ -11756,8 +11756,8 @@ input[type="color"] {
 /* 7.14 map css
 /*----------------------------------------*/
 .td-map-count-title {
-  font-weight: 700;
-  font-size: 120px;
+  font-weight: 900;
+  font-size: 150px;
   line-height: 1;
   background-clip: text;
   -webkit-background-clip: text;

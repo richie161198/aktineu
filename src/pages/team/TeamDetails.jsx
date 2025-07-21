@@ -100,11 +100,12 @@ export const TeamDetails = () => {
                   Some journeys begin with numbers. Shandhanu’s began with
                   intent. Born into a family of equity market participants, his
                   natural curiosity toward finance grew alongside the scent of
-                  newspapers and the hum of trading terminals. Though trained as
-                  an engineer, it was capital markets that truly captured his
-                  interest and led him to pursue certifications from NISM, AMFI,
-                  and APMI in Mutual Fund and PMS distribution. With over 200
-                  clients and ₹100+ crores of advisory experience behind him.
+                  financial reports and the hum of trading terminals. Though
+                  trained as an engineer, it was capital markets that truly
+                  captured his interest and led him to pursue certifications
+                  from NISM, AMFI, and APMI in Mutual Fund and PMS distribution.
+                  With over 200 clients and ₹100+ crores of advisory experience
+                  behind him.
                 </p>
                 <div className="td-team-details-education text-center text-bold mb-30 mt-30">
                   <h4 className="td-team-details-biography-title mb-15">

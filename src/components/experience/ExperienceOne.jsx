@@ -14,52 +14,55 @@ export const ExperienceOne = () => {
             <div className="col-12">
               <div className="td-expreance-big-title-wrap p-relative">
                 <span className="td-expreance-big-title">
-                 <svg
-  width="642"
-  height="512"
-  viewBox="0 0 642 512"
-  fill="none"
-  xmlns="http://www.w3.org/2000/svg"
->
-  <path
-    opacity="1.0" 
-    d="M608.713 86.4H381.913V206.1C391.713 193.967 405.713 184.167 423.913 176.7C442.113 168.767 461.48 164.8 482.013 164.8C519.346 164.8 549.913 172.967 573.713 189.3C597.513 205.633 614.78 226.633 625.513 252.3C636.246 277.5 641.613 304.567 641.613 333.5C641.613 387.167 626.213 430.333 595.413 463C565.08 495.667 521.68 512 465.213 512C412.013 512 369.546 498.7 337.813 472.1C306.08 445.5 288.113 410.733 283.913 367.8H379.113C383.313 386.467 392.646 401.4 407.113 412.6C422.046 423.8 440.946 429.4 463.813 429.4C491.346 429.4 512.113 420.767 526.113 403.5C540.113 386.233 547.113 363.367 547.113 334.9C547.113 305.967 539.88 284.033 525.413 269.1C511.413 253.7 490.646 246 463.113 246C443.513 246 427.18 250.9 414.113 260.7C401.046 270.5 391.713 283.567 386.113 299.9H292.313V0.300049H608.713V86.4Z"
-    fill="url(#paint0_linear_335_2111)"
-    fillOpacity="0.5"
-  />
-  <path
-    opacity="0" 
-    d="M0.200195 92V1.69995H168.9V512H68.1002V92H0.200195Z"
-    fill="url(#paint1_linear_335_2111)"
-    fillOpacity="0.5"
-  />
-  <defs>
-    <linearGradient
-      id="paint0_linear_335_2111"
-      x1="327.5"
-      y1="512"
-      x2="327.5"
-      y2="-4.49992"
-      gradientUnits="userSpaceOnUse"
-    >
-      <stop stopColor="white" offset="1" />
-      <stop offset="1" stopColor="white" stopOpacity="0" />
-    </linearGradient>
-    <linearGradient
-      id="paint1_linear_335_2111"
-      x1="327.5"
-      y1="512"
-      x2="327.5"
-      y2="-4.5"
-      gradientUnits="userSpaceOnUse"
-    >
-      <stop stopColor="white" offset="1" />
-      <stop offset="1" stopColor="white" stopOpacity="0" />
-    </linearGradient>
-  </defs>
-</svg>
-
+                  <svg
+                    width="642"
+                    height="512"
+                    viewBox="0 0 642 512"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      opacity="1.0"
+                      d="M608.713 86.4H381.913V206.1C391.713 193.967 405.713 184.167 423.913 176.7C442.113 168.767 461.48 164.8 482.013 164.8C519.346 164.8 549.913 172.967 573.713 189.3C597.513 205.633 614.78 226.633 625.513 252.3C636.246 277.5 641.613 304.567 641.613 333.5C641.613 387.167 626.213 430.333 595.413 463C565.08 495.667 521.68 512 465.213 512C412.013 512 369.546 498.7 337.813 472.1C306.08 445.5 288.113 410.733 283.913 367.8H379.113C383.313 386.467 392.646 401.4 407.113 412.6C422.046 423.8 440.946 429.4 463.813 429.4C491.346 429.4 512.113 420.767 526.113 403.5C540.113 386.233 547.113 363.367 547.113 334.9C547.113 305.967 539.88 284.033 525.413 269.1C511.413 253.7 490.646 246 463.113 246C443.513 246 427.18 250.9 414.113 260.7C401.046 270.5 391.713 283.567 386.113 299.9H292.313V0.300049H608.713V86.4Z"
+                      fill="url(#paint0_linear_335_2111)"
+                      fillOpacity="0.5"
+                    />
+                    <path
+                      opacity="0"
+                      d="M0.200195 92V1.69995H168.9V512H68.1002V92H0.200195Z"
+                      fill="url(#paint1_linear_335_2111)"
+                      fillOpacity="0.5"
+                    />
+                    <defs>
+                      <linearGradient
+                        id="paint0_linear_335_2111"
+                        x1="327.5"
+                        y1="512"
+                        x2="327.5"
+                        y2="-4.49992"
+                        gradientUnits="userSpaceOnUse"
+                      >
+                        <stop stopColor="white" offset="1" />
+                        <stop offset="1" stopColor="white" stopOpacity="0" />
+                      </linearGradient>
+                      <linearGradient
+                        id="paint1_linear_335_2111"
+                        x1="327.5"
+                        y1="512"
+                        x2="327.5"
+                        y2="-4.5"
+                        gradientUnits="userSpaceOnUse"
+                      >
+                        <stop stopColor="white" offset="1" />
+                        <stop offset="1" stopColor="white" stopOpacity="0" />
+                      </linearGradient>
+                    </defs>
+                  </svg>
                 </span>
+               <h2 className="td-map-count-title">
+            
+                +
+              </h2>
                 <span>
                   Years of <br />
                   Experience
@@ -73,10 +76,11 @@ export const ExperienceOne = () => {
       <div
         className="td-expreance-main bg-position z-index-11 pt-135 "
         data-background={bgImage}
-        
       >
-        <div className="container  "   style={{ marginTop: "100px" }} // Add this
->
+        <div
+          className="container  "
+          style={{ marginTop: "100px" }} // Add this
+        >
           <div className="row mb-35">
             <div className="col-lg-6 mb-30">
               <div
@@ -95,23 +99,23 @@ export const ExperienceOne = () => {
                 data-wow-delay=".4s"
                 data-wow-duration="1s"
               >
-                <p className="text-black">At Aktineu, we’re redefining finance — merging insight and innovation to power the future of wealth. What once seemed uncertain, now becomes inevitable with Aktineu.
-
-
+                <p className="text-black">
+                  At Aktineu, we’re redefining finance — merging insight and
+                  innovation to power the future of wealth. What once seemed
+                  uncertain, now becomes inevitable with Aktineu.
                   {/* At Aktineu, we’re reimagining the financial future by blending technology with deep financial expertise. From wealth building to smart investments, we craft next-gen solutions that empower individuals to take control, pivot confidently, and thrive—no matter where they are in their financial journey. */}
                 </p>
               </div>
             </div>
           </div>
-
-             </div>
+        </div>
       </div>
     </div>
   );
 };
 
-
-          {/* <div className="row">
+{
+  /* <div className="row">
             <div
               className="col-lg-12 wow fadeInUp"
               data-wow-delay=".3s"
@@ -399,5 +403,5 @@ export const ExperienceOne = () => {
                 </div>
               </div>
             </div> 
-          </div> */}
-     
+          </div> */
+}
