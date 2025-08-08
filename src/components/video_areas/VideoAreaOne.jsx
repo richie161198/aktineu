@@ -1,4 +1,4 @@
-import React from "react";
+
 import { Link } from "react-router-dom";
 import IMG from "../../assets/img/video/bg.jpg";
 import Popup from "reactjs-popup";

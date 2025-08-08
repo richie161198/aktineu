@@ -1,4 +1,4 @@
-import React from "react";
+
 import { BlogSidebar } from "../components/blogs/BlogSidebar";
 
 export const BlogLayout = ({ children }) => {

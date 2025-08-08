@@ -1,4 +1,4 @@
-import React from "react";
+
 import IMG from "../../assets/img/counter/map.png";
 import IMG2 from "../../assets/img/counter/bg.jpg";
 import { Link } from "react-router-dom";

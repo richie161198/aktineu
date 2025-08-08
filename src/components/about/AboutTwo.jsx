@@ -1,4 +1,4 @@
-import React from "react";
+
 import PATTERN from "../../assets/img/about/about2/pattern.png";
 import THUMB_1 from "../../assets/img/about/about2/02.png";
 import THUMB_2 from "../../assets/img/about/about2/03.jpg";

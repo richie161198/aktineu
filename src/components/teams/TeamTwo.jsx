@@ -1,4 +1,4 @@
-import React from "react";
+
 import { Link } from "react-router-dom";
 import bgImg from "../../assets/img/team/team4/bg.jpg";
 import bg2Img from "../../assets/img/team/team4/bg2.jpg";

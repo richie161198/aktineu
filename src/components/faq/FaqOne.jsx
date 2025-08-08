@@ -2,7 +2,7 @@ import  { useEffect } from "react";
 import $ from "jquery";
 import patternImg from "../../assets/img/faq/pattern.png";
 import shapeImg from "../../assets/img/about/about3/shape.png";
-import bgImg from "../../assets/img/faq/bg.jpg";
+import bgImg from "../../assets/img/faq/bg1.jpeg";
 import logoImg from "../../assets/img/testimonial/logo.png";
 import quoteImg from "../../assets/img/testimonial/qoute.png";
 
@@ -42,11 +42,11 @@ export const FaqOne = () => {
             data-wow-duration="1s"
           >
             <div className="td-faq-thumb p-relative mr-70">
-              <img
+              {/* <img
                 className="td-faq-shape d-none d-lg-block"
                 src={shapeImg}
                 alt="shape"
-              />
+              /> */}
               <img className="w-100" src={bgImg} alt="thumb" />
               {/* <div className="td-faq-badge">
                 <div className="td-testimonial-qoute-thumb p-relative">

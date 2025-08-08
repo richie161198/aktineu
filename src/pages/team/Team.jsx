@@ -1,4 +1,4 @@
-import React from "react";
+
 import { Layout } from "../../layouts/Layout";
 import { ImpressionOne } from "../../components/impressions/ImpressionOne";
 import { TeamMember } from "../../components/teams/TeamMember";

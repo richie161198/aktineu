@@ -1,4 +1,4 @@
-import React from "react";
+
 import { Link } from "react-router-dom";
 import { HeaderThree } from "../../components/headers/HeaderThree";
 import errorImage from "../../assets/img/error/error.jpg";

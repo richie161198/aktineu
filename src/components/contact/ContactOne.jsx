@@ -1,4 +1,4 @@
-// import React from "react";
+// 
 import IMG_A from "../../assets/img/about/a.png";
 import { ContactMap } from "./ContactMap";
 

@@ -1,4 +1,4 @@
-import React from "react";
+
 import { useHeaderLang, useHeaderSticky } from "./useHeader";
 import { Navbar } from "./Navbar";
 import { Link } from "react-router-dom";
@@ -18,8 +18,7 @@ export const HeaderThree = () => {
               <div className="col-12">
                 <div className="td-header-3-content">
                   <p>
-                    Welcome To Our <a href="#"> Aktineu Investment </a> Consulting
-                    Firm
+                    Welcome To Our <a href="#"> Aktineu LLP </a>
                   </p>
                 </div>
               </div>

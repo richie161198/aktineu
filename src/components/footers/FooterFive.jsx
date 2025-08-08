@@ -1,4 +1,4 @@
-import React from "react";
+
 import { Link } from "react-router-dom";
 import footerBg from "../../assets/img/footer/bg.jpg";
 

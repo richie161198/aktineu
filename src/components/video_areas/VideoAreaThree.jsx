@@ -1,4 +1,4 @@
-import React from "react";
+
 import videoThumb from "../../assets/img/video/video4/bg.jpg";
 import { VideoPlayer } from "../video/VideoPlayer";
 

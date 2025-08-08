@@ -1,4 +1,4 @@
-import React from "react";
+
 import { Layout } from "../../layouts/Layout";
 import { HeroTwo } from "../../components/hero_sections/HeroTwo";
 import { AboutTwo } from "../../components/about/AboutTwo";

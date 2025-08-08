@@ -1,4 +1,4 @@
-import React from "react";
+
 import { Layout } from "../../layouts/Layout";
 import { BlogLayout } from "../../layouts/BlogLayout";
 import { BlogItem } from "../../components/blogs/BlogItem";

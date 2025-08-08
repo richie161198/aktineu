@@ -1,4 +1,4 @@
-import React from "react";
+
 import { Layout } from "../../layouts/Layout";
 import { ServiceLayout } from "../../layouts/ServiceLayout";
 import thumb from "../../assets/img/service/details/thumb.jpg";

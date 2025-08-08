@@ -1,4 +1,4 @@
-import React from "react";
+
 import { Link } from "react-router-dom";
 import awardImage from "../../assets/img/awards/01.png";
 

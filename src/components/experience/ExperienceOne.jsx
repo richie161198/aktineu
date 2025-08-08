@@ -1,4 +1,4 @@
-import React from "react";
+
 import bgImage from "../../assets/img/expreance/bg2.jpg";
 import thumbImage1 from "../../assets/img/expreance/01.jpg";
 import thumbImage2 from "../../assets/img/expreance/02.jpg";

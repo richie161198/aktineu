@@ -1,4 +1,4 @@
-import React from "react";
+
 import { Swiper, SwiperSlide } from "../swiper/SwiperRoot";
 
 export const TextSliderOne = () => {

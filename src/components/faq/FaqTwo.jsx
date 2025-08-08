@@ -1,4 +1,4 @@
-import React from "react";
+
 import bgImage from "../../assets/img/faq/home4/bg.jpg";
 
 export const FaqTwo = () => {

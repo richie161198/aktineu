@@ -1,4 +1,4 @@
-import React from "react";
+
 import { Swiper, SwiperSlide } from "../swiper/SwiperRoot";
 
 import img01 from "../../assets/img/blog/blog2/01.jpg";

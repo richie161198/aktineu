@@ -1,4 +1,4 @@
-import React from "react";
+
 import { TeamOneItem } from "./TeamOneItem";
 import teamMember1 from "../../assets/img/team/01.png";
 import teamMember2 from "../../assets/img/team/02.png";

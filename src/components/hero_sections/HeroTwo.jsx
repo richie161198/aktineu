@@ -1,7 +1,5 @@
-import React from "react";
-import BG from "../../assets/img/hero/hero2/bg5.jpg";
-import { Link } from "react-router-dom";
 
+import BG from "../../assets/img/hero/hero2/bg5.jpg";
 export const HeroTwo = () => {
   return (
     <div
@@ -62,9 +60,9 @@ export const HeroTwo = () => {
           </div>
         </div>
       </div>
-      <div className="td-hero-2-navebar">
+      {/*    <div className="td-hero-2-navebar">
         <div className="container">
-          {/* <div className="row gx-0">
+       <div className="row gx-0">
             <div className="col-lg-3 col-md-6 col-sm-6">
               <div className="td-hero-2-navebar-single">
                 <span>Our Mission</span>
@@ -97,9 +95,9 @@ export const HeroTwo = () => {
                 </a>
               </div>
             </div>
-          </div> */}
-        </div>
-      </div>
+          </div> 
+          </div>
+      </div> */}
     </div>
   );
 };

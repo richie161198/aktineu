@@ -1,4 +1,4 @@
-import React from "react";
+
 import LOGO from "../../assets/img/logo/logo-2.png";
 import { useHeaderLang, useHeaderSticky } from "./useHeader";
 import { Navbar } from "./Navbar";

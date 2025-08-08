@@ -1,4 +1,4 @@
-import React from "react";
+
 import bgImage from "../../assets/img/contact/contact4/bg.jpg";
 import bg2Image from "../../assets/img/contact/contact4/bg2.jpg";
 

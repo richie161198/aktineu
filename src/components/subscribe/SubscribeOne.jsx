@@ -1,4 +1,4 @@
-import React from "react";
+
 import bgImage from "../../assets/img/subscribe/bg.jpg";
 import thumbImage from "../../assets/img/subscribe/thumb.jpg";
 import shapeImage from "../../assets/img/subscribe/symbol.png";

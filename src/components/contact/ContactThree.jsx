@@ -1,4 +1,4 @@
-import React from "react";
+
 import { Link } from "react-router-dom";
 import londonImg from "../../assets/img/contact/contact4/bg.jpg";
 import newYorkImg from "../../assets/img/contact/contact4/bg2.jpg";

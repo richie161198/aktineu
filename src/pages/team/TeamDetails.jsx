@@ -1,4 +1,4 @@
-import React from "react";
+
 import { Layout } from "../../layouts/Layout";
 import { Link } from "react-router-dom";
 import teamDetailsImage from "../../assets/img/team/team5/s1.jpg";

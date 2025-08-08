@@ -16,6 +16,7 @@ export const ContactTwo = () => {
   });
   const [errors, setErrors] = useState({});
   const [loading, setLoading] = useState(false);
+  const [result, setResult] = useState("");
 
   useEffect(() => {
     const handleMouseEnter = function (e) {
@@ -30,6 +31,13 @@ export const ContactTwo = () => {
       $(".td-btn-rounded").off("mouseenter", handleMouseEnter);
     };
   }, []);
+
+  useEffect(() => {
+    if (result) {
+      alert(result);
+      setResult("");
+    }
+  }, [result]);
 
   const validateForm = () => {
     const newErrors = {};
@@ -51,7 +59,6 @@ export const ContactTwo = () => {
       ...prev,
       [name]: value
     }));
-    // Clear error when user starts typing
     if (errors[name]) {
       setErrors((prev) => ({
         ...prev,
@@ -65,40 +72,33 @@ export const ContactTwo = () => {
     if (!validateForm()) return;
 
     setLoading(true);
-    
+
     try {
-      // Create URL encoded form data
-      const formDataToSend = new URLSearchParams();
-      formDataToSend.append('name', formData.name);
-      formDataToSend.append('email', formData.email);
-      formDataToSend.append('phone', formData.phone);
-      formDataToSend.append('message', formData.message);
-      formDataToSend.append('timestamp', new Date().toISOString());
+      const payload = new FormData();
+      payload.append("access_key", "c63a851a-b6c1-4c20-a37a-d05dd5a83674");
+      payload.append("name", formData.name);
+      payload.append("email", formData.email);
+      payload.append("phone", formData.phone);
+      payload.append("message", formData.message);
 
-      console.log("Sending form data..."); // Debug log
-
-      const response = await fetch("https://script.google.com/macros/s/AKfycbyyiP3G0julAwbgA4BdCDEolZFiau7PQG3lqV6_fu3t96vQYUqdq7KdzrdlC9kFq0KP/exec", {
+      const response = await fetch("https://api.web3forms.com/submit", {
         method: "POST",
-        headers: {
-          'Content-Type': 'application/x-www-form-urlencoded',
-        },
-        body: formDataToSend.toString()
+        body: payload
       });
 
-      console.log("Response status:", response.status); // Debug log
-      console.log("Response:", await response.text()); // Debug log
+      const data = await response.json();
 
-      if (response.ok) {
-        alert("Message sent successfully! We'll get back to you soon.");
+      if (data.success) {
+        setResult("Message sent successfully!");
         setFormData({ name: "", email: "", phone: "", message: "" });
         setErrors({});
       } else {
-        throw new Error(`HTTP ${response.status}: ${response.statusText}`);
+        console.log("Error", data);
+        setResult("Error: " + data.message);
       }
-      
     } catch (error) {
       console.error("Form submission error:", error);
-      alert(`Error: ${error.message}. Please check the browser console for more details.`);
+      setResult("Something went wrong. Please try again.");
     } finally {
       setLoading(false);
     }

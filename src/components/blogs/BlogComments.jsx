@@ -1,4 +1,4 @@
-import React from "react";
+
 import { Link } from "react-router-dom";
 import thumb4 from "../../assets/img/blog/details/thumb4.jpg";
 import thumb5 from "../../assets/img/blog/details/thumb5.jpg";

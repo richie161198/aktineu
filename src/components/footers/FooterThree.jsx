@@ -1,4 +1,3 @@
-import React from "react";
 import { Link } from "react-router-dom";
 import LOGO_WHITE from "../../assets/img/logo/logo-white3.png";
 import LOGO_WHITE_Font from "../../assets/img/logo/logo-white.png";
@@ -168,6 +167,16 @@ export const FooterThree = () => {
                               rel="noopener noreferrer"
                             >
                               <i className="fa-brands fa-linkedin-in fa-2x pr-10"></i>
+                            </a>
+                          </li>
+
+                          <li>
+                            <a
+                              href="https://wa.me/9994031721?text=Hi"
+                              target="_blank"
+                              rel="noopener noreferrer"
+                            >
+                              <i className="fa-brands fa-whatsapp fa-2x pr-10"></i>
                             </a>
                           </li>
                           <li>

@@ -1,4 +1,4 @@
-import React from "react";
+
 import mapImage from "../../assets/img/map/map.png";
 
 export const MapOne = () => {

@@ -1,4 +1,4 @@
-// import React from "react";
+// 
 import BG from "../../assets/img/video/video3/bg.jpg";
 import CONTACT from "../../assets/img/video/video3/contact.jpg";
 import PHONE from "../../assets/img/video/video3/phone.png";

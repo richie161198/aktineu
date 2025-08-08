@@ -1,4 +1,4 @@
-import React from "react";
+
 import { Link } from "react-router-dom";
 import ctaImage from "../../assets/img/video/video5/cta.png";
 import ctaImage2 from "../../assets/img/video/video5/cta2.png";

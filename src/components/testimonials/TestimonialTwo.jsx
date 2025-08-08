@@ -1,4 +1,4 @@
-import React from "react";
+
 import QOUTE from "../../assets/img/testimonial/tes/qoute.png";
 import QOUTE2 from "../../assets/img/testimonial/tes/qoute2.png";
 import THUMB from "../../assets/img/testimonial/tes/thumb.jpg";

@@ -1,4 +1,4 @@
-import React from "react";
+
 import { Link } from "react-router-dom";
 import SHAPE from "../../assets/img/impressions/shape.png";
 import CHART from "../../assets/img/impressions/chart.png";

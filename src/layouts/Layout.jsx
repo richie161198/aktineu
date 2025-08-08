@@ -1,4 +1,4 @@
-import React from "react";
+
 import { ScrollToTopButton } from "../components/scroll_to_top_btn/ScrollToTopButton";
 import { HeaderOne } from "../components/headers/HeaderOne";
 import { MobileNavbar } from "../components/headers/MobileNavbar";

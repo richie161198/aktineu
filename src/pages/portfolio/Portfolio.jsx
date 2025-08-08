@@ -1,4 +1,4 @@
-import React from "react";
+
 import { Layout } from "../../layouts/Layout";
 import { Link } from "react-router-dom";
 import img12 from "../../assets/img/portfolio/12.jpg";

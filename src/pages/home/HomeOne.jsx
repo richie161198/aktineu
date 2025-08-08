@@ -1,4 +1,4 @@
-import React from "react";
+
 import { Layout } from "../../layouts/Layout";
 import { HeroOne } from "../../components/hero_sections/HeroOne";
 import { ServiceAreaOne } from "../../components/service/ServiceAreaOne";

@@ -1,4 +1,4 @@
-import React from "react";
+
 import BG from "../../assets/img/hero/hero3/bg4.jpg";
 import IMG_VIDEO from "../../assets/img/video/video.jpg";
 import { VideoPlayer } from "../video/VideoPlayer";

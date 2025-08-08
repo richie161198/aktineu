@@ -1,4 +1,4 @@
-import React from "react";
+
 import backgroundImage from "../../assets/img/faq/faq5/background.jpg";
 import faqImage from "../../assets/img/faq/faq5/bg.jpg";
 

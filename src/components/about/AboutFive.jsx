@@ -1,4 +1,4 @@
-import React from "react";
+
 import logoImg from "../../assets/img/testimonial/logo.png";
 import aboutImg from "../../assets/img/about/about4/a.png";
 import thumb1 from "../../assets/img/about/about5/thumb.jpg";

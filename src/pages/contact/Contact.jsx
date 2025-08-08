@@ -1,4 +1,4 @@
-// import React from "react";
+// 
 import { Layout } from "../../layouts/Layout";
 import { ContactMap } from "../../components/contact/ContactMap";
 import { ContactFour, PrivacyPolicy } from "../../components/contact/ContactFour";

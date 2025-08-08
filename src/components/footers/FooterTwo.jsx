@@ -1,4 +1,4 @@
-import React from "react";
+
 import { Link } from "react-router-dom";
 import LOGO from "../../assets/img/logo/logo.png";
 import facebookIcon from "../../assets/img/footer/social-icon/facebook.png";

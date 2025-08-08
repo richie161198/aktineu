@@ -1,4 +1,4 @@
-import React from "react";
+
 import { Link } from "react-router-dom";
 import serviceThumb from "../../assets/img/service/service2/thumb.png";
 import roundImg from "../../assets/img/service/service2/round.png";

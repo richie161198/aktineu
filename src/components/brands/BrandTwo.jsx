@@ -1,4 +1,4 @@
-import React from "react";
+
 import mapImg from "../../assets/img/brands/map.png";
 import brand01Img from "../../assets/img/brands/01.png";
 import brand02Img from "../../assets/img/brands/02.png";

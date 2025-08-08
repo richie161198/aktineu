@@ -1,4 +1,4 @@
-import React from "react";
+
 import BG_IMG from "../../assets/img/hero/bg.jpg";
 import { Link } from "react-router-dom";
 import { Swiper, SwiperSlide } from "../swiper/SwiperRoot";

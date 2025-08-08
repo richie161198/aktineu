@@ -1,4 +1,4 @@
-// import React from "react";
+// 
 import { Layout } from "../../layouts/Layout";
 import { AboutFive } from "../../components/about/AboutFive";
 import { HistoryOne } from "../../components/history/HistoryOne";
