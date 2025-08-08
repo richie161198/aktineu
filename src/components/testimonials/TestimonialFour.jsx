@@ -12,6 +12,15 @@ import { Swiper, SwiperSlide } from "../swiper/SwiperRoot";
 
 export const TestimonialFour = () => {
   const testimonials = [
+
+    {
+      src: m,
+      title: "Murali V",
+      designation:
+        "Vice President- coromandel international Ltd , A Murugappa group conglomerate",
+      description:
+        "I am honored to share my experience with aktineu LLP, who has proven to be an exceptional investment planner. His deep expertise in financial markets, coupled with a strategic mindset, has been instrumental in helping me achieve my investment goals.   What truly sets shandhanu apart is his unwavering dedication to his clients. He takes the time to thoroughly understand individual financial objectives, risk tolerance, and market preferences, ensuring that every recommendation is both personalized and effective. His insights are always well-researched, timely, and yield tangible results.   Moreover, Shandhanu's professionalism and integrity inspire immense trust. He communicates complex market trends in a way that is easy to understand and always prioritizes his clients' best interests. Thanks to his guidance, I have not only grown my portfolio but also gained a deeper understanding of investing.   I wholeheartedly recommend Shandhanu to anyone seeking a knowledgeable, reliable, and results-driven advisor.",
+    },
     {
       src: rb,
       title: "Ramesh babu",
@@ -25,15 +34,6 @@ export const TestimonialFour = () => {
       designation: "Head of software engineer , BOOKING.COM- Netherlands",
       description:
         "I’ve been working with Shanthanu for two years, and he’s been incredibly reliable — always just a call away. He actively monitors and reallocates my investments, which shows he genuinely cares. Even without a huge portfolio, I’ve felt well-guided and supported throughout. Highly recommend him to anyone looking for a proactive and trustworthy wealth manager.",
-    },
-
-    {
-      src: m,
-      title: "Murali V",
-      designation:
-        "Vice President- coromandel international Ltd , A Murugappa group conglomerate",
-      description:
-        "I am honored to share my experience with aktineu LLP, who has proven to be an exceptional investment planner. His deep expertise in financial markets, coupled with a strategic mindset, has been instrumental in helping me achieve my investment goals.   What truly sets shandhanu apart is his unwavering dedication to his clients. He takes the time to thoroughly understand individual financial objectives, risk tolerance, and market preferences, ensuring that every recommendation is both personalized and effective. His insights are always well-researched, timely, and yield tangible results.   Moreover, Shandhanu's professionalism and integrity inspire immense trust. He communicates complex market trends in a way that is easy to understand and always prioritizes his clients' best interests. Thanks to his guidance, I have not only grown my portfolio but also gained a deeper understanding of investing.   I wholeheartedly recommend Shandhanu to anyone seeking a knowledgeable, reliable, and results-driven advisor.",
     },
     {
       src: h,
