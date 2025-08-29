@@ -172,7 +172,7 @@ export const FooterThree = () => {
 
                           <li>
                             <a
-                              href="https://wa.me/9994031721?text=Hi"
+                              href="https://wa.me/+919994031721?text=Hi"
                               target="_blank"
                               rel="noopener noreferrer"
                             >

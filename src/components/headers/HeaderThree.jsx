@@ -63,7 +63,7 @@ export const HeaderThree = () => {
                         <div className="td-header-3-btn text-right">
                           <a
                             className="td-btn td-btn-7 td-left-right"
-                              href="https://wa.me/9994031721?text=Hi"
+                              href="https://wa.me/+919994031721?text=Hi"
                             target="_blank"
                             rel="noopener noreferrer"
                           >
